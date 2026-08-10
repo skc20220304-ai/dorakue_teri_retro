@@ -79,7 +79,7 @@ function App() {
   const favoriteRecipes = data.recipes.filter((r) => favorites.recipes.has(r.recipeKey))
   const favoriteMonsters = playableMonsters.filter((m) => favorites.monsters.has(m.id))
 
-  return <div className="app-shell">
+  return <div className="app-shell" style={{ overflowX: 'hidden' }}>
     <header className="topbar">
       <button className="brand" onClick={() => { setPage('search'); setQuery(''); }} aria-label="配合手帳 ホーム"><BookOpen size={34} /><span>配合手帳</span></button>
       <nav className="main-nav" aria-label="メインナビゲーション"><button className={page === 'search' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('search')}><Search size={20} />モンスター検索</button><button className={page === 'favorites' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('favorites')}><Star size={20} />お気に入り</button></nav>
