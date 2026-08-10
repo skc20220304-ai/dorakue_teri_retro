@@ -55,21 +55,64 @@ const canonicalRecipes = [...recipes.reduce((groups, recipe) => {
   }
   return groups
 }, new Map()).values()]
+
+const verifiedSource = JSON.parse(fs.readFileSync(path.join(root, 'vendor', 'verified-recipes.json'), 'utf8'))
+if (verifiedSource.unresolved?.length) {
+  throw new Error(`Verified recipe source contains ${verifiedSource.unresolved.length} unresolved rows`)
+}
+const refKey = (ref) => `${ref.kind}:${ref.id}`
+const tripleKey = (lineageRef, mateRef, resultId) => `${refKey(lineageRef)}|${refKey(mateRef)}|${resultId}`
+const engineByTriple = new Map()
+for (const recipe of canonicalRecipes) {
+  const key = tripleKey(recipe.lineageRef, recipe.mateRef, recipe.resultId)
+  const matches = engineByTriple.get(key) ?? []
+  matches.push(recipe)
+  engineByTriple.set(key, matches)
+}
+
+const verifiedRecipes = verifiedSource.recipes.map((recipe) => {
+  const engineMatches = engineByTriple.get(tripleKey(recipe.lineageRef, recipe.mateRef, recipe.resultId)) ?? []
+  const engine = engineMatches[0]
+  return {
+    ...recipe,
+    sourceNo: engine?.sourceNo ?? null,
+    sourceNos: engineMatches.flatMap((match) => match.sourceNos ?? [match.sourceNo]),
+    requiredPlus: engine?.requiredPlus ?? null,
+    resultPlusBonus: engine?.resultPlusBonus ?? null,
+    engineMatched: Boolean(engine),
+  }
+})
+const orderedPairKey = (lineageRef, mateRef) => `${refKey(lineageRef)}|${refKey(mateRef)}`
+const resultsByParents = new Map()
+for (const recipe of verifiedRecipes) {
+  const key = orderedPairKey(recipe.lineageRef, recipe.mateRef)
+  const results = resultsByParents.get(key) ?? new Set()
+  results.add(recipe.resultId)
+  resultsByParents.set(key, results)
+}
+for (const recipe of verifiedRecipes) {
+  recipe.reverseResultIds = [...(resultsByParents.get(orderedPairKey(recipe.mateRef, recipe.lineageRef)) ?? [])]
+  recipe.sameResultWhenReversed = recipe.reverseResultIds.includes(recipe.resultId)
+}
+
 const specialMonsterIds = ['D7', 'D8', 'D9', 'DA', 'DB', 'DC']
 const data = {
-  version: 2,
+  version: 3,
   source: 'ossan-pg/dqm1-gb-data',
   compatibility: 'GB / Dragon Quest Monsters: Terry\'s Wonderland RETRO (normal breeding; communication features excluded)',
   monsters: monsters.map((monster) => ({ ...monster, status: specialMonsterIds.includes(monster.id) ? 'special' : 'playable' })),
-  recipes: canonicalRecipes,
+  recipes: verifiedRecipes,
   quality: {
+    rawEngineRows: recipes.length,
+    verifiedDirectionalRecipes: verifiedRecipes.length,
+    verifiedResults: new Set(verifiedRecipes.map((recipe) => recipe.resultId)).size,
     sourceNoRange: [0, 824],
-    missingSourceNos: [202, 204, 532],
     duplicateSourceNos: duplicateGroups,
     specialMonsterIds,
-    verification: 'mechanically validated against source IDs and independently cross-checked at list level against GB/RETRO community tables; PP/P+ remain source-derived',
+    verification: 'Only ordered recipes independently present in both Jippe GB/RETRO and XGameMania GB tables are shown. Plus values are shown only for an exact ordered match in the ROM-derived engine table.',
+    sources: verifiedSource.sources,
   },
   generatedAt: new Date().toISOString(),
 }
 fs.writeFileSync(path.join(outDir, 'data.json'), JSON.stringify(data, null, 2))
-console.log(`Generated ${monsters.length} monsters and ${recipes.length} recipes`)
+console.log(`Generated ${monsters.length} monsters and ${verifiedRecipes.length} verified directional recipes`)
