@@ -96,6 +96,7 @@ for (const recipe of verifiedRecipes) {
 }
 
 const specialMonsterIds = ['D7', 'D8', 'D9', 'DA', 'DB', 'DC']
+const nonBreedableMonsterIds = ['08', '4F', '6D', '77', 'AE']
 const data = {
   version: 3,
   source: 'ossan-pg/dqm1-gb-data',
@@ -109,7 +110,8 @@ const data = {
     sourceNoRange: [0, 824],
     duplicateSourceNos: duplicateGroups,
     specialMonsterIds,
-    verification: 'Only ordered recipes independently present in both Jippe GB/RETRO and XGameMania GB tables are shown. Plus values are shown only for an exact ordered match in the ROM-derived engine table.',
+    nonBreedableMonsterIds,
+    verification: 'Only ordered recipes independently confirmed by at least two cited GB/RETRO references are shown. Plus values are shown only for an exact ordered match in the ROM-derived engine table.',
     sources: verifiedSource.sources,
   },
   generatedAt: new Date().toISOString(),
