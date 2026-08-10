@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "source": "ossan-pg/dqm1-gb-data",
   "compatibility": "GB / Dragon Quest Monsters: Terry's Wonderland RETRO (normal breeding; communication features excluded)",
   "monsters": [
@@ -12,7 +12,37 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "牧場のとびら",
+            "floors": "6〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          },
+          {
+            "name": "いかりのとびら",
+            "floors": "9〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+          },
+          {
+            "name": "ちからのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-drakslime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-drakslime/"
+      }
     },
     {
       "id": "01",
@@ -23,7 +53,42 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          },
+          {
+            "name": "とまどいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+          },
+          {
+            "name": "おもいでのとびら",
+            "floors": "3〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-spotted-slime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-spotted-slime/"
+      }
     },
     {
       "id": "02",
@@ -34,7 +99,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場左のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wing-slime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wing-slime/"
+      }
     },
     {
       "id": "03",
@@ -45,7 +130,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "井戸のとびら",
+            "floors": "4〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          },
+          {
+            "name": "ちからのとびら",
+            "floors": "1〜3 6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-tree/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-tree/"
+      }
     },
     {
       "id": "04",
@@ -56,7 +166,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "よろこびのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-snail/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-snail/"
+      }
     },
     {
       "id": "05",
@@ -67,7 +197,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しはいのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          },
+          {
+            "name": "さそいのとびら",
+            "floors": "1〜19",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "スカラ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-knight/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-knight/"
+      }
     },
     {
       "id": "06",
@@ -78,7 +228,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "よろこびのとびら",
+            "floors": "9〜13",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-babble/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-babble/"
+      }
     },
     {
       "id": "07",
@@ -89,7 +259,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "メダルのとびら",
+            "floors": "1〜18",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-box-slime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-box-slime/"
+      }
     },
     {
       "id": "08",
@@ -100,7 +290,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しはいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          },
+          {
+            "name": "たびだちのとびら",
+            "floors": "1〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tabidachi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-slime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime/"
+      }
     },
     {
       "id": "09",
@@ -111,7 +321,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-healer/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-healer/"
+      }
     },
     {
       "id": "0A",
@@ -122,7 +341,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "スクルト",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wild-slime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wild-slime/"
+      }
     },
     {
       "id": "0B",
@@ -133,7 +361,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しはいのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          },
+          {
+            "name": "まよいのとびら",
+            "floors": "1〜22",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-rock-slime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-rock-slime/"
+      }
     },
     {
       "id": "0C",
@@ -144,7 +392,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "1〜15",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "だいせつだん",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-slimeborg/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slimeborg/"
+      }
     },
     {
       "id": "0D",
@@ -155,7 +423,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場左のとびら",
+            "floors": "6〜15",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-slabbit/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slabbit/"
+      }
     },
     {
       "id": "0E",
@@ -166,7 +454,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "さばきのとびら",
+            "floors": "1〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "れんぞくこうげき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-spotking/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-spotking/"
+      }
     },
     {
       "id": "0F",
@@ -177,7 +485,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "マヒャド",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-king-slime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-king-slime/"
+      }
     },
     {
       "id": "10",
@@ -188,7 +505,27 @@
       "genderType": "02",
       "flying": false,
       "metal": true,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "井戸のとびら",
+            "floors": "9〜11F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "しはいのとびら",
+            "floors": "1〜5F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-metalslime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metalslime/"
+      }
     },
     {
       "id": "11",
@@ -199,7 +536,22 @@
       "genderType": "02",
       "flying": false,
       "metal": true,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しはいのとびら",
+            "floors": "21〜29F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "マホカンタ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-metalbabble/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metalbabble/"
+      }
     },
     {
       "id": "12",
@@ -210,7 +562,16 @@
       "genderType": "02",
       "flying": false,
       "metal": true,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "139〜",
+          "skills": "ねむりこうげき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-metalking/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metalking/"
+      }
     },
     {
       "id": "13",
@@ -221,7 +582,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-goldenslime/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-goldenslime/"
+      }
     },
     {
       "id": "14",
@@ -232,7 +602,42 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "4〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "4〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          },
+          {
+            "name": "とまどいのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+          },
+          {
+            "name": "おもいでのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-small-fry/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-small-fry/"
+      }
     },
     {
       "id": "15",
@@ -243,7 +648,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "図書館のとびら",
+            "floors": "11〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wyrtle/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wyrtle/"
+      }
     },
     {
       "id": "16",
@@ -254,7 +679,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "ちえのとびら",
+            "floors": "1〜14",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-pteranodon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-pteranodon/"
+      }
     },
     {
       "id": "17",
@@ -265,7 +710,32 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場左のとびら",
+            "floors": "13〜15",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+          },
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "しあわせのとびら",
+            "floors": "1〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-fusion-dragon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-fusion-dragon/"
+      }
     },
     {
       "id": "18",
@@ -276,7 +746,32 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "牧場のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+          },
+          {
+            "name": "ちからのとびら",
+            "floors": "1〜5 9〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+          },
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-fairydragon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-fairydragon/"
+      }
     },
     {
       "id": "19",
@@ -287,7 +782,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "かがみのとびら",
+            "floors": "1〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "メダパニ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-lizardman/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lizardman/"
+      }
     },
     {
       "id": "1A",
@@ -298,7 +813,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "いかりのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-whacker-gila/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-whacker-gila/"
+      }
     },
     {
       "id": "1B",
@@ -309,7 +844,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "ライデイン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-sworddragon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-sworddragon/"
+      }
     },
     {
       "id": "1C",
@@ -320,7 +870,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-green-dragon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-green-dragon/"
+      }
     },
     {
       "id": "1D",
@@ -331,7 +890,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "とまどいのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+          },
+          {
+            "name": "まもりのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-komodo/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-komodo/"
+      }
     },
     {
       "id": "1E",
@@ -342,7 +926,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "いきをすいこむ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-drag-goof/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-drag-goof/"
+      }
     },
     {
       "id": "1F",
@@ -353,7 +952,22 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "いなずま",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wyvern/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wyvern/"
+      }
     },
     {
       "id": "20",
@@ -364,7 +978,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "まよいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-big-iguana/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-big-iguana/"
+      }
     },
     {
       "id": "21",
@@ -375,7 +1009,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "さばきのとびら",
+            "floors": "11〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "ひのいき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-lizard-fly/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lizard-fly/"
+      }
     },
     {
       "id": "22",
@@ -386,7 +1040,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "ザオリク",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-andreal/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-andreal/"
+      }
     },
     {
       "id": "23",
@@ -397,7 +1066,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "さそいのとびら",
+            "floors": "1〜16",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ザキ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-big-cobra/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-big-cobra/"
+      }
     },
     {
       "id": "24",
@@ -408,7 +1097,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "21〜29F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "マホカンタ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-dentazaurus/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dentazaurus/"
+      }
     },
     {
       "id": "25",
@@ -419,7 +1123,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "21〜29F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "バギクロス",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-greatdragon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-greatdragon/"
+      }
     },
     {
       "id": "26",
@@ -430,7 +1149,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "がんこじいさんのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "1〜7",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-crestpen/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-crestpen/"
+      }
     },
     {
       "id": "27",
@@ -441,7 +1185,12 @@
       "genderType": "01",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "28",
@@ -452,7 +1201,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-couatl/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-couatl/"
+      }
     },
     {
       "id": "29",
@@ -463,7 +1221,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "139〜",
+          "skills": "ザラキ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-orochi/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-orochi/"
+      }
     },
     {
       "id": "2A",
@@ -474,7 +1241,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "かがやくいき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hacksaurus/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hacksaurus/"
+      }
     },
     {
       "id": "2B",
@@ -485,7 +1261,16 @@
       "genderType": "03",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "メガンテ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-skydragon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skydragon/"
+      }
     },
     {
       "id": "2C",
@@ -496,7 +1281,16 @@
       "genderType": "03",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-xenlon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-xenlon/"
+      }
     },
     {
       "id": "2D",
@@ -507,7 +1301,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "ちえのとびら",
+            "floors": "1〜14",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-poxtongue/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-poxtongue/"
+      }
     },
     {
       "id": "2E",
@@ -518,7 +1332,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "井戸のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "4〜7",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-spiked-hare/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-spiked-hare/"
+      }
     },
     {
       "id": "2F",
@@ -529,7 +1368,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "いかりのとびら",
+            "floors": "1〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-vampire-cat/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-vampire-cat/"
+      }
     },
     {
       "id": "30",
@@ -540,7 +1399,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "おもいでのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+          },
+          {
+            "name": "まちびとのとびら",
+            "floors": "3〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-furrat/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-furrat/"
+      }
     },
     {
       "id": "31",
@@ -551,7 +1435,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "よろこびのとびら",
+            "floors": "1〜12",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bagworm/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bagworm/"
+      }
     },
     {
       "id": "32",
@@ -562,7 +1466,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "21〜26",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "マヒャド",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-strong-animal/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-strong-animal/"
+      }
     },
     {
       "id": "33",
@@ -573,7 +1492,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "牧場のとびら",
+            "floors": "1〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-skullgaroo/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skullgaroo/"
+      }
     },
     {
       "id": "34",
@@ -584,7 +1523,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "格闘場左のとびら",
+            "floors": "9〜15",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-cyclown/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-cyclown/"
+      }
     },
     {
       "id": "35",
@@ -595,7 +1554,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "たびだちのとびら",
+            "floors": "1〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tabidachi"
+          },
+          {
+            "name": "まちびとのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+          },
+          {
+            "name": "まもりのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-tonguebear/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-tonguebear/"
+      }
     },
     {
       "id": "36",
@@ -606,7 +1590,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "ベギラゴン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-super-tensk/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-super-tensk/"
+      }
     },
     {
       "id": "37",
@@ -617,7 +1616,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "21〜26",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "メガンテ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-ironturt/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ironturt/"
+      }
     },
     {
       "id": "38",
@@ -628,7 +1642,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "さそいのとびら",
+            "floors": "1〜12",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-platypunk/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-platypunk/"
+      }
     },
     {
       "id": "39",
@@ -639,7 +1673,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "さばきのとびら",
+            "floors": "1〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "いなずまぎり",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hammerhood/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hammerhood/"
+      }
     },
     {
       "id": "3A",
@@ -650,7 +1704,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "6〜28F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "格闘場右のとびら",
+            "floors": "11〜20F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-grizzly/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-grizzly/"
+      }
     },
     {
       "id": "3B",
@@ -661,7 +1735,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "21〜26",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "バギクロス",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-powie-yowie/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-powie-yowie/"
+      }
     },
     {
       "id": "3C",
@@ -672,7 +1761,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "格闘場左のとびら",
+            "floors": "1〜15",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mad-mole/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mad-mole/"
+      }
     },
     {
       "id": "3D",
@@ -683,7 +1792,32 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "格闘場右のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "おもいでのとびら",
+            "floors": "3〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-fairyrat/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-fairyrat/"
+      }
     },
     {
       "id": "3E",
@@ -694,7 +1828,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "21〜26F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "しっぷうづき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-unicorn/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-unicorn/"
+      }
     },
     {
       "id": "3F",
@@ -705,7 +1854,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "もろばぎり",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-goategon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-goategon/"
+      }
     },
     {
       "id": "40",
@@ -716,7 +1880,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          },
+          {
+            "name": "図書館のとびら",
+            "floors": "6〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ちからをためる",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-simiac/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-simiac/"
+      }
     },
     {
       "id": "41",
@@ -727,7 +1911,12 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "42",
@@ -738,7 +1927,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-marquis-de-leon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-marquis-de-leon/"
+      }
     },
     {
       "id": "43",
@@ -749,7 +1947,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-darkhorn/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-darkhorn/"
+      }
     },
     {
       "id": "44",
@@ -760,7 +1967,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "ベホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-great-sabrecat/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-great-sabrecat/"
+      }
     },
     {
       "id": "45",
@@ -771,7 +1987,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "ベホマラー",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bigeye/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bigeye/"
+      }
     },
     {
       "id": "46",
@@ -782,7 +2007,37 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "おもいでのとびら",
+            "floors": "3〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+          },
+          {
+            "name": "まもりのとびら",
+            "floors": "3〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          },
+          {
+            "name": "まちびとのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bludgerigar/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bludgerigar/"
+      }
     },
     {
       "id": "47",
@@ -793,7 +2048,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "11〜25",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "21〜26",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "れんぞくこうげき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-kimera/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-kimera/"
+      }
     },
     {
       "id": "48",
@@ -804,7 +2079,37 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "井戸のとびら",
+            "floors": "6〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "6〜7",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          },
+          {
+            "name": "ゆうきのとびら",
+            "floors": "6〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bullfinch/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bullfinch/"
+      }
     },
     {
       "id": "49",
@@ -815,7 +2120,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "あやつりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          },
+          {
+            "name": "ちえのとびら",
+            "floors": "1〜14",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-florajay/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-florajay/"
+      }
     },
     {
       "id": "4A",
@@ -826,7 +2151,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "あやつりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          },
+          {
+            "name": "まよいのとびら",
+            "floors": "6〜22",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "けものぎり",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-quack-up/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-quack-up/"
+      }
     },
     {
       "id": "4B",
@@ -837,7 +2182,12 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "4C",
@@ -848,7 +2198,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "牧場のとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-avenger-raven/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-avenger-raven/"
+      }
     },
     {
       "id": "4D",
@@ -859,7 +2229,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "あやつりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          },
+          {
+            "name": "さそいのとびら",
+            "floors": "13〜19",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "ラリホー",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mistwing/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mistwing/"
+      }
     },
     {
       "id": "4E",
@@ -870,7 +2260,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "あやつりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          },
+          {
+            "name": "たびだちのとびら",
+            "floors": "1〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tabidachi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-drakee/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-drakee/"
+      }
     },
     {
       "id": "4F",
@@ -881,7 +2291,37 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          },
+          {
+            "name": "とまどいのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bantamweight/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bantamweight/"
+      }
     },
     {
       "id": "50",
@@ -892,7 +2332,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しあわせのとびら",
+            "floors": "13〜17",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-ganko/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ganko/"
+      }
     },
     {
       "id": "51",
@@ -903,7 +2363,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "図書館のとびら",
+            "floors": "21〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "バギマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-growlbear/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-growlbear/"
+      }
     },
     {
       "id": "52",
@@ -914,7 +2394,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "さばきのとびら",
+            "floors": "1〜10 21〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          },
+          {
+            "name": "あやつりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-killer-goose/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-killer-goose/"
+      }
     },
     {
       "id": "53",
@@ -925,7 +2425,22 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "あやつりのとびら",
+            "floors": "21〜26",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hades-condor/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hades-condor/"
+      }
     },
     {
       "id": "54",
@@ -936,7 +2451,16 @@
       "genderType": "03",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "バギマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-snowbird/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-snowbird/"
+      }
     },
     {
       "id": "55",
@@ -947,7 +2471,16 @@
       "genderType": "01",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-firebird/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-firebird/"
+      }
     },
     {
       "id": "56",
@@ -958,7 +2491,22 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "あやつりのとびら",
+            "floors": "21〜26F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "やみのはどう",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-thunderbird/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-thunderbird/"
+      }
     },
     {
       "id": "57",
@@ -969,7 +2517,22 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "あやつりのとびら",
+            "floors": "21〜26F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "メガザル",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-roc/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-roc/"
+      }
     },
     {
       "id": "58",
@@ -980,7 +2543,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "スクルト",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-funky-bird/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-funky-bird/"
+      }
     },
     {
       "id": "59",
@@ -991,7 +2563,16 @@
       "genderType": "01",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-rainhawk/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-rainhawk/"
+      }
     },
     {
       "id": "5A",
@@ -1002,7 +2583,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "はかいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mental-pitcher/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mental-pitcher/"
+      }
     },
     {
       "id": "5B",
@@ -1013,7 +2609,12 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "5C",
@@ -1024,7 +2625,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "井戸のとびら",
+            "floors": "1〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          },
+          {
+            "name": "ゆうきのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-flower-mage/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-flower-mage/"
+      }
     },
     {
       "id": "5D",
@@ -1035,7 +2661,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "はかいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          },
+          {
+            "name": "ちからのとびら",
+            "floors": "4〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-floattree/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-floattree/"
+      }
     },
     {
       "id": "5E",
@@ -1046,7 +2692,12 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "5F",
@@ -1057,7 +2708,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "よろこびのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bad-apple/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bad-apple/"
+      }
     },
     {
       "id": "60",
@@ -1068,7 +2739,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mushroom/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mushroom/"
+      }
     },
     {
       "id": "61",
@@ -1079,7 +2759,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "図書館のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ギラ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-kohakusou/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-kohakusou/"
+      }
     },
     {
       "id": "62",
@@ -1090,7 +2790,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "まちびとのとびら",
+            "floors": "1〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-stump-chump/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-stump-chump/"
+      }
     },
     {
       "id": "63",
@@ -1101,7 +2821,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しあわせのとびら",
+            "floors": "1〜12",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-onion/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-onion/"
+      }
     },
     {
       "id": "64",
@@ -1112,7 +2852,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "はかいのとびら",
+            "floors": "21〜28",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "バイキルト",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-carrot/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-carrot/"
+      }
     },
     {
       "id": "65",
@@ -1123,7 +2878,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "さばきのとびら",
+            "floors": "1〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "ヒャド",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-harbuckle/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-harbuckle/"
+      }
     },
     {
       "id": "66",
@@ -1134,7 +2909,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場右のとびら",
+            "floors": "21〜26",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "マジックバリア",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-titan-tree/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-titan-tree/"
+      }
     },
     {
       "id": "67",
@@ -1145,7 +2935,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mandrake/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mandrake/"
+      }
     },
     {
       "id": "68",
@@ -1156,7 +2955,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "4〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          },
+          {
+            "name": "ゆうきのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bean-fighter/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bean-fighter/"
+      }
     },
     {
       "id": "69",
@@ -1167,7 +2991,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "とまどいのとびら",
+            "floors": "3〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+          },
+          {
+            "name": "はかいのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-seed/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-seed/"
+      }
     },
     {
       "id": "6A",
@@ -1178,7 +3022,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "はかいのとびら",
+            "floors": "21〜28",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "ライデイン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-maneater/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-maneater/"
+      }
     },
     {
       "id": "6B",
@@ -1189,7 +3048,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "はかいのとびら",
+            "floors": "21〜28",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "ザキ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-carnivine/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-carnivine/"
+      }
     },
     {
       "id": "6C",
@@ -1200,7 +3074,16 @@
       "genderType": "03",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-rosevine/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-rosevine/"
+      }
     },
     {
       "id": "6D",
@@ -1211,7 +3094,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-watabou/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-watabou/"
+      }
     },
     {
       "id": "6E",
@@ -1222,7 +3114,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "井戸のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "いかりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-big-slug/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-big-slug/"
+      }
     },
     {
       "id": "6F",
@@ -1233,7 +3150,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "4〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "おもいでのとびら",
+            "floors": "1〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-caterpillar/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-caterpillar/"
+      }
     },
     {
       "id": "70",
@@ -1244,7 +3186,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しあわせのとびら",
+            "floors": "1〜17",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-boring-bug/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-boring-bug/"
+      }
     },
     {
       "id": "71",
@@ -1255,7 +3217,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "牧場のとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-masked-moth/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-masked-moth/"
+      }
     },
     {
       "id": "72",
@@ -1266,7 +3248,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "さばきのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-cordyceps/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-cordyceps/"
+      }
     },
     {
       "id": "73",
@@ -1277,7 +3279,37 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "井戸のとびら",
+            "floors": "6〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "いかりのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          },
+          {
+            "name": "ゆうきのとびら",
+            "floors": "4〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wiggly/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wiggly/"
+      }
     },
     {
       "id": "74",
@@ -1288,7 +3320,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ベホマラー",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-lipsy/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lipsy/"
+      }
     },
     {
       "id": "75",
@@ -1299,7 +3340,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "やぼうのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          },
+          {
+            "name": "さそいのとびら",
+            "floors": "9〜19",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "１〜18",
+          "skills": "しんくうぎり",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-scissor-beatle/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-scissor-beatle/"
+      }
     },
     {
       "id": "76",
@@ -1310,7 +3371,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "まもりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-army-ant/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-army-ant/"
+      }
     },
     {
       "id": "77",
@@ -1321,7 +3402,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "まちびとのとびら",
+            "floors": "1〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-stick/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-stick/"
+      }
     },
     {
       "id": "78",
@@ -1332,7 +3433,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "まよいのとびら",
+            "floors": "1〜10 16〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "マホターン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-tail-eater/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-tail-eater/"
+      }
     },
     {
       "id": "79",
@@ -1343,7 +3464,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ちえのとびら",
+            "floors": "6〜14",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-centipod/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-centipod/"
+      }
     },
     {
       "id": "7A",
@@ -1354,7 +3495,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "いかりのとびら",
+            "floors": "4〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-druin/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-druin/"
+      }
     },
     {
       "id": "7B",
@@ -1365,7 +3526,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "さばきのとびら",
+            "floors": "16〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-death-farena/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-death-farena/"
+      }
     },
     {
       "id": "7C",
@@ -1376,7 +3557,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "さばきのとびら",
+            "floors": "6〜15",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-droll/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-droll/"
+      }
     },
     {
       "id": "7D",
@@ -1387,7 +3588,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "図書館のとびら",
+            "floors": "1〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "のろいのことば",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-army-crab/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-army-crab/"
+      }
     },
     {
       "id": "7E",
@@ -1398,7 +3619,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "16〜28",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "やぼうのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "のろいのことば",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-hornet/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-hornet/"
+      }
     },
     {
       "id": "7F",
@@ -1409,7 +3650,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "139〜",
+          "skills": "どくこうげき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hornbeetle/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hornbeetle/"
+      }
     },
     {
       "id": "80",
@@ -1420,7 +3670,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-armorpion/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-armorpion/"
+      }
     },
     {
       "id": "81",
@@ -1431,7 +3690,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "ハッスルダンス",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-dungeonshrimp/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dungeonshrimp/"
+      }
     },
     {
       "id": "82",
@@ -1442,7 +3710,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しあわせのとびら",
+            "floors": "1〜16",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-picksy/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-picksy/"
+      }
     },
     {
       "id": "83",
@@ -1453,7 +3741,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "図書館のとびら",
+            "floors": "1〜24F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "11〜20F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "かえんぎり",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bullwong/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bullwong/"
+      }
     },
     {
       "id": "84",
@@ -1464,7 +3772,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねだやしのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          },
+          {
+            "name": "まよいのとびら",
+            "floors": "11〜22",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "すてみ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-silver-batboon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-silver-batboon/"
+      }
     },
     {
       "id": "85",
@@ -1475,7 +3803,37 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "6〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "とまどいのとびら",
+            "floors": "3〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          },
+          {
+            "name": "ゆうきのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-imp/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-imp/"
+      }
     },
     {
       "id": "86",
@@ -1486,7 +3844,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねだやしのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          },
+          {
+            "name": "さそいのとびら",
+            "floors": "17〜19",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "バイキルト",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-eyelasher/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-eyelasher/"
+      }
     },
     {
       "id": "87",
@@ -1497,7 +3875,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "よろこびのとびら",
+            "floors": "6〜13",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-clindeoil/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-clindeoil/"
+      }
     },
     {
       "id": "88",
@@ -1508,7 +3906,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねだやしのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          },
+          {
+            "name": "ちからのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-skull-rider/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skull-rider/"
+      }
     },
     {
       "id": "89",
@@ -1519,7 +3937,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "1〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "デイン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-beast/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-beast/"
+      }
     },
     {
       "id": "8A",
@@ -1530,7 +3968,32 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "6〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          },
+          {
+            "name": "ゆうきのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-jinkster/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-jinkster/"
+      }
     },
     {
       "id": "8B",
@@ -1541,7 +4004,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねだやしのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          },
+          {
+            "name": "まちびとのとびら",
+            "floors": "3〜4",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-gremlin/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-gremlin/"
+      }
     },
     {
       "id": "8C",
@@ -1552,7 +4035,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "格闘場左のとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-medusa-ball/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-medusa-ball/"
+      }
     },
     {
       "id": "8D",
@@ -1563,7 +4066,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "16〜28",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "ベギラマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hyperanemon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hyperanemon/"
+      }
     },
     {
       "id": "8E",
@@ -1574,7 +4097,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねだやしのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "ルカナン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-ankhorn/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ankhorn/"
+      }
     },
     {
       "id": "8F",
@@ -1585,7 +4123,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "メダルのとびら",
+            "floors": "1〜18",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+          },
+          {
+            "name": "ねだやしのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-orc/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-orc/"
+      }
     },
     {
       "id": "90",
@@ -1596,7 +4154,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねだやしのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "もろばぎり",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-ogre/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ogre/"
+      }
     },
     {
       "id": "91",
@@ -1607,7 +4180,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "139〜",
+          "skills": "かがやくいき",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-grimkeeper/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-grimkeeper/"
+      }
     },
     {
       "id": "92",
@@ -1618,7 +4200,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "139〜",
+          "skills": "メガンテ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-piero/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-piero/"
+      }
     },
     {
       "id": "93",
@@ -1629,7 +4220,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねだやしのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "ベホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-thwarthog/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-thwarthog/"
+      }
     },
     {
       "id": "94",
@@ -1640,7 +4246,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-blackmar/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-blackmar/"
+      }
     },
     {
       "id": "95",
@@ -1651,7 +4266,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-axe-knight/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-axe-knight/"
+      }
     },
     {
       "id": "96",
@@ -1662,7 +4286,12 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "97",
@@ -1673,7 +4302,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "メガンテ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-zushio/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-zushio/"
+      }
     },
     {
       "id": "98",
@@ -1684,7 +4322,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "ラリホーマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-devil-armor/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-devil-armor/"
+      }
     },
     {
       "id": "99",
@@ -1695,7 +4342,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-jamirus/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-jamirus/"
+      }
     },
     {
       "id": "9A",
@@ -1706,7 +4362,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-dhuran/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dhuran/"
+      }
     },
     {
       "id": "9B",
@@ -1717,7 +4382,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "まもりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-ghost/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ghost/"
+      }
     },
     {
       "id": "9C",
@@ -1728,7 +4413,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねむりのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "メラゾーマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-putregon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-putregon/"
+      }
     },
     {
       "id": "9D",
@@ -1739,7 +4439,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "いかりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-putrepup/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-putrepup/"
+      }
     },
     {
       "id": "9E",
@@ -1750,7 +4470,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "21〜28",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "ザキ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-yatagarasu/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-yatagarasu/"
+      }
     },
     {
       "id": "9F",
@@ -1761,7 +4501,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "よろこびのとびら",
+            "floors": "9〜13",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mummy/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mummy/"
+      }
     },
     {
       "id": "A0",
@@ -1772,7 +4532,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねむりのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "マホトーン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-dark-club/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dark-club/"
+      }
     },
     {
       "id": "A1",
@@ -1783,7 +4558,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "しあわせのとびら",
+            "floors": "5〜17",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ピオリム",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton-soldier/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton-soldier/"
+      }
     },
     {
       "id": "A2",
@@ -1794,7 +4589,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "かがみのとびら",
+            "floors": "1〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ラリホー",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-shadow/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-shadow/"
+      }
     },
     {
       "id": "A3",
@@ -1805,7 +4620,37 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザーのとびら",
+            "floors": "6〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "6〜7",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          },
+          {
+            "name": "とまどいのとびら",
+            "floors": "3〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-corpse/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-corpse/"
+      }
     },
     {
       "id": "A4",
@@ -1816,7 +4661,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "牧場のとびら",
+            "floors": "4〜5 9〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mudlon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mudlon/"
+      }
     },
     {
       "id": "A5",
@@ -1827,7 +4692,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "メダルのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-will-o-the-whips/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-will-o-the-whips/"
+      }
     },
     {
       "id": "A6",
@@ -1838,7 +4723,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "図書館のとびら",
+            "floors": "1〜10 16〜24",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "メダパニ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-soulspawn/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-soulspawn/"
+      }
     },
     {
       "id": "A7",
@@ -1849,7 +4754,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねむりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          },
+          {
+            "name": "まよいのとびら",
+            "floors": "21〜22",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "ホイミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wind-mage/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wind-mage/"
+      }
     },
     {
       "id": "A8",
@@ -1860,7 +4785,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "メダルのとびら",
+            "floors": "9〜18",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "1〜18",
+          "skills": "マホトーン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-sekerleton/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-sekerleton/"
+      }
     },
     {
       "id": "A9",
@@ -1871,7 +4816,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねむりのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "ベホマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-deadnoble/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-deadnoble/"
+      }
     },
     {
       "id": "AA",
@@ -1882,7 +4842,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wightking/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wightking/"
+      }
     },
     {
       "id": "AB",
@@ -1893,7 +4862,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "井戸のとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "4〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          },
+          {
+            "name": "ねむりのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bone-prisoner/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bone-prisoner/"
+      }
     },
     {
       "id": "AC",
@@ -1904,7 +4898,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "ねむりのとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "つばめがえし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton/"
+      }
     },
     {
       "id": "AD",
@@ -1915,7 +4924,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "139〜",
+          "skills": "しゃくねつ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-demonatarms/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-demonatarms/"
+      }
     },
     {
       "id": "AE",
@@ -1926,7 +4944,16 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "マジックバリア",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-manemane/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-manemane/"
+      }
     },
     {
       "id": "AF",
@@ -1937,7 +4964,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "かがみのとびら",
+            "floors": "26〜28",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "59〜78",
+          "skills": "ベホマラー",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-jewels/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-jewels/"
+      }
     },
     {
       "id": "B0",
@@ -1948,7 +4995,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "かがみのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "メラミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-wand/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-wand/"
+      }
     },
     {
       "id": "B1",
@@ -1959,7 +5026,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "格闘場左のとびら",
+            "floors": "1〜12",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-wax-murderer/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wax-murderer/"
+      }
     },
     {
       "id": "B2",
@@ -1970,7 +5057,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "やすらぎのとびら",
+            "floors": "1〜3",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-nejimakidori/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-nejimakidori/"
+      }
     },
     {
       "id": "B3",
@@ -1981,7 +5088,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "牧場のとびら",
+            "floors": "6〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+          },
+          {
+            "name": "ちえのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-teaky-mask/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-teaky-mask/"
+      }
     },
     {
       "id": "B4",
@@ -1992,7 +5124,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "しあわせのとびら",
+            "floors": "17",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+          },
+          {
+            "name": "さそいのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-burr-baby/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-burr-baby/"
+      }
     },
     {
       "id": "B5",
@@ -2003,7 +5160,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "イオラ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-demon-mirror/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-demon-mirror/"
+      }
     },
     {
       "id": "B6",
@@ -2014,7 +5186,27 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "6〜10",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "メダルのとびら",
+            "floors": "6〜18",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "マホキテ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-restless-armour/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-restless-armour/"
+      }
     },
     {
       "id": "B7",
@@ -2025,7 +5217,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "おもいでのとびら",
+            "floors": "1〜2",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+          },
+          {
+            "name": "まもりのとびら",
+            "floors": "3〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-muddy-hand/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-muddy-hand/"
+      }
     },
     {
       "id": "B8",
@@ -2036,7 +5253,12 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "B9",
@@ -2047,7 +5269,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "イオナズン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-metaldragon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metaldragon/"
+      }
     },
     {
       "id": "BA",
@@ -2058,7 +5295,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "21〜29F",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "119〜138",
+          "skills": "ラリホーマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-balzack/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-balzack/"
+      }
     },
     {
       "id": "BB",
@@ -2069,7 +5321,32 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "井戸のとびら",
+            "floors": "9〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "ゆうきのとびら",
+            "floors": "4〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-erazor-blade/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-erazor-blade/"
+      }
     },
     {
       "id": "BC",
@@ -2080,7 +5357,27 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "図書館のとびら",
+            "floors": "1〜15",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ヒャダルコ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-cursed-lamp/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-cursed-lamp/"
+      }
     },
     {
       "id": "BD",
@@ -2091,7 +5388,12 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "BE",
@@ -2102,7 +5404,16 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-urnexpected/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-urnexpected/"
+      }
     },
     {
       "id": "BF",
@@ -2113,7 +5424,32 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "11〜20",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "メダルのとびら",
+            "floors": "1〜8",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+          },
+          {
+            "name": "まよいのとびら",
+            "floors": "1〜22",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "ラリホーマ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-gas-cloud/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-gas-cloud/"
+      }
     },
     {
       "id": "C0",
@@ -2124,7 +5460,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "39〜58",
+          "skills": "メラミ",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-lava-basher/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lava-basher/"
+      }
     },
     {
       "id": "C1",
@@ -2135,7 +5480,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "19〜38",
+          "skills": "みなごろし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-glacierblasher/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-glacierblasher/"
+      }
     },
     {
       "id": "C2",
@@ -2146,7 +5500,22 @@
       "genderType": "02",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "※",
+            "floors": "※",
+            "sourceUrl": "https://jippe-game.com/terryretro/monster-mimic/"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mimic/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mimic/"
+      }
     },
     {
       "id": "C3",
@@ -2157,7 +5526,32 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          },
+          {
+            "name": "井戸のとびら",
+            "floors": "6〜11",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+          },
+          {
+            "name": "ちからのとびら",
+            "floors": "1〜5",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mud-doll/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mud-doll/"
+      }
     },
     {
       "id": "C4",
@@ -2168,7 +5562,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "メダパニダンス",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-golem/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-golem/"
+      }
     },
     {
       "id": "C5",
@@ -2179,7 +5582,16 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "79〜98",
+          "skills": "ベギラゴン",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-livingstatue/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-livingstatue/"
+      }
     },
     {
       "id": "C6",
@@ -2190,7 +5602,22 @@
       "genderType": "02",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [
+          {
+            "name": "バザー端のとびら",
+            "floors": "21〜29",
+            "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+          }
+        ],
+        "foreignMaster": {
+          "levelBand": "99〜118",
+          "skills": "しんくうぎり",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-bomb-crag/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bomb-crag/"
+      }
     },
     {
       "id": "C7",
@@ -2201,7 +5628,16 @@
       "genderType": "01",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-goldengolem/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-goldengolem/"
+      }
     },
     {
       "id": "C8",
@@ -2212,7 +5648,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "C9",
@@ -2223,7 +5664,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "CA",
@@ -2234,7 +5680,16 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-hargon/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hargon/"
+      }
     },
     {
       "id": "CB",
@@ -2245,7 +5700,16 @@
       "genderType": "00",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-malroth/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-malroth/"
+      }
     },
     {
       "id": "CC",
@@ -2256,7 +5720,16 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-baramos/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-baramos/"
+      }
     },
     {
       "id": "CD",
@@ -2267,7 +5740,16 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-zoma/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-zoma/"
+      }
     },
     {
       "id": "CE",
@@ -2278,7 +5760,16 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-deathpsaro/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-deathpsaro/"
+      }
     },
     {
       "id": "CF",
@@ -2289,7 +5780,16 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-estark/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-estark/"
+      }
     },
     {
       "id": "D0",
@@ -2300,7 +5800,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "D1",
@@ -2311,7 +5816,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "D2",
@@ -2322,7 +5832,16 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-murdaw/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-murdaw/"
+      }
     },
     {
       "id": "D3",
@@ -2333,7 +5852,12 @@
       "genderType": "00",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "D4",
@@ -2344,7 +5868,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "D5",
@@ -2355,7 +5884,12 @@
       "genderType": "00",
       "flying": true,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "D6",
@@ -2366,7 +5900,16 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "playable"
+      "status": "playable",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": {
+          "levelBand": "なし",
+          "skills": "なし",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-nokturnus/"
+        },
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-nokturnus/"
+      }
     },
     {
       "id": "D7",
@@ -2377,7 +5920,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "special"
+      "status": "special",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "D8",
@@ -2388,7 +5936,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "special"
+      "status": "special",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "D9",
@@ -2399,7 +5952,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "special"
+      "status": "special",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "DA",
@@ -2410,7 +5968,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "special"
+      "status": "special",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "DB",
@@ -2421,7 +5984,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "special"
+      "status": "special",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     },
     {
       "id": "DC",
@@ -2432,7 +6000,12 @@
       "genderType": "00",
       "flying": false,
       "metal": false,
-      "status": "special"
+      "status": "special",
+      "acquisition": {
+        "doors": [],
+        "foreignMaster": null,
+        "sourceUrl": null
+      }
     }
   ],
   "recipes": [
@@ -31031,6 +34604,94 @@
       "77",
       "AE"
     ],
+    "acquisition": {
+      "records": 200,
+      "unresolved": [
+        {
+          "id": "27",
+          "name": "ウイングスネーク"
+        },
+        {
+          "id": "41",
+          "name": "バオーム"
+        },
+        {
+          "id": "4B",
+          "name": "デッドベッカー"
+        },
+        {
+          "id": "5B",
+          "name": "かりゅそう"
+        },
+        {
+          "id": "5E",
+          "name": "サバテンボール"
+        },
+        {
+          "id": "96",
+          "name": "ギガンデス"
+        },
+        {
+          "id": "B8",
+          "name": "ミステリードール"
+        },
+        {
+          "id": "BD",
+          "name": "キラーマシーン"
+        },
+        {
+          "id": "C8",
+          "name": "りゅうおう1"
+        },
+        {
+          "id": "C9",
+          "name": "りゅうおう2"
+        },
+        {
+          "id": "D0",
+          "name": "ミルドラース1"
+        },
+        {
+          "id": "D1",
+          "name": "ミルドラース2"
+        },
+        {
+          "id": "D3",
+          "name": "デスタムーア1"
+        },
+        {
+          "id": "D4",
+          "name": "デスタムーア2"
+        },
+        {
+          "id": "D5",
+          "name": "デスタムーア3"
+        }
+      ],
+      "sourcePolicy": "Jippe GB/RETRO対応の各モンスター記事から、旅の扉の出現階数と他国マスターのレベル帯を抽出。掲載のない個体は空欄とする。",
+      "otherCountryMaster": {
+        "definition": "パーティーレベルは連れている3体の合計レベル。下記の条件を満たして次のフロアへ進むと、他国マスターがランダム出現する。",
+        "levelBands": [
+          "1〜18",
+          "19〜38",
+          "39〜58",
+          "59〜78",
+          "79〜98",
+          "99〜118",
+          "119〜138",
+          "139〜"
+        ],
+        "conditions": [
+          "神父：フロア内のアイテムをすべて拾う",
+          "魔法使い：16画面フロアのマップをすべて表示（レミラーマでも可）",
+          "商人：アイテムを拾わず200歩以上歩く",
+          "戦士：特定条件なし（ランダム）",
+          "詩人：特定条件なし（低確率）"
+        ],
+        "sourceUrl": "https://jippe-game.com/terryretro/other-country-master/",
+        "rosterSourceUrl": "https://jippe-game.com/terryretro/monster-other-country-master/"
+      }
+    },
     "verification": "Only ordered recipes independently confirmed by at least two cited GB/RETRO references are shown. Plus values are shown only for an exact ordered match in the ROM-derived engine table.",
     "sources": [
       "https://jippe-game.com/terryretro/",
@@ -31038,5 +34699,5 @@
       "https://jony-webcreat.com/teriwanretoro/monster/all-monster-making/"
     ]
   },
-  "generatedAt": "2026-08-10T12:36:16.398Z"
+  "generatedAt": "2026-08-10T13:24:43.859Z"
 }

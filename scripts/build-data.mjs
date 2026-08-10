@@ -97,11 +97,13 @@ for (const recipe of verifiedRecipes) {
 
 const specialMonsterIds = ['D7', 'D8', 'D9', 'DA', 'DB', 'DC']
 const nonBreedableMonsterIds = ['08', '4F', '6D', '77', 'AE']
+const acquisitionSource = JSON.parse(fs.readFileSync(path.join(root, 'vendor', 'acquisition.json'), 'utf8'))
+const acquisitionById = acquisitionSource.records ?? {}
 const data = {
-  version: 3,
+  version: 4,
   source: 'ossan-pg/dqm1-gb-data',
   compatibility: 'GB / Dragon Quest Monsters: Terry\'s Wonderland RETRO (normal breeding; communication features excluded)',
-  monsters: monsters.map((monster) => ({ ...monster, status: specialMonsterIds.includes(monster.id) ? 'special' : 'playable' })),
+  monsters: monsters.map((monster) => ({ ...monster, status: specialMonsterIds.includes(monster.id) ? 'special' : 'playable', acquisition: acquisitionById[monster.id] ?? { doors: [], foreignMaster: null, sourceUrl: null } })),
   recipes: verifiedRecipes,
   quality: {
     rawEngineRows: recipes.length,
@@ -111,6 +113,24 @@ const data = {
     duplicateSourceNos: duplicateGroups,
     specialMonsterIds,
     nonBreedableMonsterIds,
+    acquisition: {
+      records: Object.keys(acquisitionById).length,
+      unresolved: acquisitionSource.unresolved ?? [],
+      sourcePolicy: acquisitionSource.policy,
+      otherCountryMaster: {
+        definition: 'パーティーレベルは連れている3体の合計レベル。下記の条件を満たして次のフロアへ進むと、他国マスターがランダム出現する。',
+        levelBands: ['1〜18', '19〜38', '39〜58', '59〜78', '79〜98', '99〜118', '119〜138', '139〜'],
+        conditions: [
+          '神父：フロア内のアイテムをすべて拾う',
+          '魔法使い：16画面フロアのマップをすべて表示（レミラーマでも可）',
+          '商人：アイテムを拾わず200歩以上歩く',
+          '戦士：特定条件なし（ランダム）',
+          '詩人：特定条件なし（低確率）',
+        ],
+        sourceUrl: 'https://jippe-game.com/terryretro/other-country-master/',
+        rosterSourceUrl: 'https://jippe-game.com/terryretro/monster-other-country-master/',
+      },
+    },
     verification: 'Only ordered recipes independently confirmed by at least two cited GB/RETRO references are shown. Plus values are shown only for an exact ordered match in the ROM-derived engine table.',
     sources: verifiedSource.sources,
   },

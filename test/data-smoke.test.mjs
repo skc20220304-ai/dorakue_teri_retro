@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import data from '../src/data/data.json' with { type: 'json' }
 
 test('generated data contains the expected core tables', () => {
-  assert.equal(data.version, 3)
+  assert.equal(data.version, 4)
   assert.ok(data.monsters.length >= 200)
   assert.equal(data.recipes.length, 952)
   assert.equal(new Set(data.monsters.map((monster) => monster.id)).size, data.monsters.length)
@@ -28,4 +28,12 @@ test('previously missing breedable monsters are covered with ordered recipes', (
 test('Golden Golem recipe preserves bloodline and mate direction', () => {
   assert.ok(data.recipes.some((recipe) => recipe.lineageRef.id === 'C1' && recipe.mateRef.id === 'C0' && recipe.resultId === 'C7'))
   assert.ok(!data.recipes.some((recipe) => recipe.lineageRef.id === 'C0' && recipe.mateRef.id === 'C1' && recipe.resultId === 'C7'))
+})
+
+test('acquisition data includes doors and foreign-master bands', () => {
+  const slime = data.monsters.find((monster) => monster.name === 'スライム')
+  assert.ok(slime.acquisition.doors.some((door) => door.name === 'たびだちのとびら'))
+  const metal = data.monsters.find((monster) => monster.name === 'メタルスライム')
+  assert.match(metal.acquisition.foreignMaster.levelBand, /〜/)
+  assert.ok(data.quality.acquisition.otherCountryMaster.conditions.length >= 5)
 })

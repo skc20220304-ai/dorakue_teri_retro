@@ -1,0 +1,3537 @@
+{
+  "version": 1,
+  "policy": "Jippe GB/RETRO対応の各モンスター記事から、旅の扉の出現階数と他国マスターのレベル帯を抽出。掲載のない個体は空欄とする。",
+  "source": "https://jippe-game.com/terryretro/",
+  "records": {
+    "10": {
+      "doors": [
+        {
+          "name": "井戸のとびら",
+          "floors": "9〜11F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "1〜5F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metalslime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-metalslime/"
+    },
+    "11": {
+      "doors": [
+        {
+          "name": "しはいのとびら",
+          "floors": "21〜29F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "マホカンタ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metalbabble/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-metalbabble/"
+    },
+    "12": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "139〜",
+        "skills": "ねむりこうげき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metalking/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-metalking/"
+    },
+    "13": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-goldenslime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-goldenslime/"
+    },
+    "14": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "4〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "4〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        },
+        {
+          "name": "とまどいのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+        },
+        {
+          "name": "おもいでのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-small-fry/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-small-fry/"
+    },
+    "15": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "図書館のとびら",
+          "floors": "11〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wyrtle/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wyrtle/"
+    },
+    "16": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "ちえのとびら",
+          "floors": "1〜14",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-pteranodon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-pteranodon/"
+    },
+    "17": {
+      "doors": [
+        {
+          "name": "格闘場左のとびら",
+          "floors": "13〜15",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+        },
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "しあわせのとびら",
+          "floors": "1〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-fusion-dragon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-fusion-dragon/"
+    },
+    "18": {
+      "doors": [
+        {
+          "name": "牧場のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+        },
+        {
+          "name": "ちからのとびら",
+          "floors": "1〜5 9〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+        },
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-fairydragon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-fairydragon/"
+    },
+    "19": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "かがみのとびら",
+          "floors": "1〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "メダパニ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lizardman/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-lizardman/"
+    },
+    "20": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "まよいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-big-iguana/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-big-iguana/"
+    },
+    "21": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "さばきのとびら",
+          "floors": "11〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "ひのいき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lizard-fly/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-lizard-fly/"
+    },
+    "22": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "ザオリク",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-andreal/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-andreal/"
+    },
+    "23": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "さそいのとびら",
+          "floors": "1〜16",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ザキ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-big-cobra/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-big-cobra/"
+    },
+    "24": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "21〜29F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "マホカンタ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dentazaurus/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-dentazaurus/"
+    },
+    "25": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "21〜29F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "バギクロス",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-greatdragon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-greatdragon/"
+    },
+    "26": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "1〜7",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-crestpen/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-crestpen/"
+    },
+    "28": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-couatl/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-couatl/"
+    },
+    "29": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "139〜",
+        "skills": "ザラキ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-orochi/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-orochi/"
+    },
+    "30": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "おもいでのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+        },
+        {
+          "name": "まちびとのとびら",
+          "floors": "3〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-furrat/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-furrat/"
+    },
+    "31": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "よろこびのとびら",
+          "floors": "1〜12",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bagworm/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bagworm/"
+    },
+    "32": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "21〜26",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "マヒャド",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-strong-animal/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-strong-animal/"
+    },
+    "33": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "牧場のとびら",
+          "floors": "1〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skullgaroo/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-skullgaroo/"
+    },
+    "34": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "格闘場左のとびら",
+          "floors": "9〜15",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-cyclown/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-cyclown/"
+    },
+    "35": {
+      "doors": [
+        {
+          "name": "たびだちのとびら",
+          "floors": "1〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tabidachi"
+        },
+        {
+          "name": "まちびとのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+        },
+        {
+          "name": "まもりのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-tonguebear/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-tonguebear/"
+    },
+    "36": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "ベギラゴン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-super-tensk/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-super-tensk/"
+    },
+    "37": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "21〜26",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "メガンテ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ironturt/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-ironturt/"
+    },
+    "38": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "さそいのとびら",
+          "floors": "1〜12",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-platypunk/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-platypunk/"
+    },
+    "39": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "さばきのとびら",
+          "floors": "1〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "いなずまぎり",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hammerhood/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hammerhood/"
+    },
+    "40": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "図書館のとびら",
+          "floors": "6〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ちからをためる",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-simiac/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-simiac/"
+    },
+    "42": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-marquis-de-leon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-marquis-de-leon/"
+    },
+    "43": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-darkhorn/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-darkhorn/"
+    },
+    "44": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "ベホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-great-sabrecat/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-great-sabrecat/"
+    },
+    "45": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "ベホマラー",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bigeye/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bigeye/"
+    },
+    "46": {
+      "doors": [
+        {
+          "name": "おもいでのとびら",
+          "floors": "3〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+        },
+        {
+          "name": "まもりのとびら",
+          "floors": "3〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        },
+        {
+          "name": "まちびとのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bludgerigar/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bludgerigar/"
+    },
+    "47": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "11〜25",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "21〜26",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "れんぞくこうげき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-kimera/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-kimera/"
+    },
+    "48": {
+      "doors": [
+        {
+          "name": "井戸のとびら",
+          "floors": "6〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "6〜7",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        },
+        {
+          "name": "ゆうきのとびら",
+          "floors": "6〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bullfinch/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bullfinch/"
+    },
+    "49": {
+      "doors": [
+        {
+          "name": "あやつりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        },
+        {
+          "name": "ちえのとびら",
+          "floors": "1〜14",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-florajay/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-florajay/"
+    },
+    "50": {
+      "doors": [
+        {
+          "name": "しあわせのとびら",
+          "floors": "13〜17",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ganko/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-ganko/"
+    },
+    "51": {
+      "doors": [
+        {
+          "name": "図書館のとびら",
+          "floors": "21〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "バギマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-growlbear/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-growlbear/"
+    },
+    "52": {
+      "doors": [
+        {
+          "name": "さばきのとびら",
+          "floors": "1〜10 21〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-killer-goose/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-killer-goose/"
+    },
+    "53": {
+      "doors": [
+        {
+          "name": "あやつりのとびら",
+          "floors": "21〜26",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hades-condor/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hades-condor/"
+    },
+    "54": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "バギマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-snowbird/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-snowbird/"
+    },
+    "55": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-firebird/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-firebird/"
+    },
+    "56": {
+      "doors": [
+        {
+          "name": "あやつりのとびら",
+          "floors": "21〜26F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "やみのはどう",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-thunderbird/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-thunderbird/"
+    },
+    "57": {
+      "doors": [
+        {
+          "name": "あやつりのとびら",
+          "floors": "21〜26F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "メガザル",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-roc/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-roc/"
+    },
+    "58": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "スクルト",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-funky-bird/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-funky-bird/"
+    },
+    "59": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-rainhawk/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-rainhawk/"
+    },
+    "60": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mushroom/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mushroom/"
+    },
+    "61": {
+      "doors": [
+        {
+          "name": "図書館のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ギラ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-kohakusou/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-kohakusou/"
+    },
+    "62": {
+      "doors": [
+        {
+          "name": "まちびとのとびら",
+          "floors": "1〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-stump-chump/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-stump-chump/"
+    },
+    "63": {
+      "doors": [
+        {
+          "name": "しあわせのとびら",
+          "floors": "1〜12",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-onion/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-onion/"
+    },
+    "64": {
+      "doors": [
+        {
+          "name": "はかいのとびら",
+          "floors": "21〜28",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "バイキルト",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-carrot/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-carrot/"
+    },
+    "65": {
+      "doors": [
+        {
+          "name": "さばきのとびら",
+          "floors": "1〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "ヒャド",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-harbuckle/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-harbuckle/"
+    },
+    "66": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "21〜26",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "マジックバリア",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-titan-tree/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-titan-tree/"
+    },
+    "67": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mandrake/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mandrake/"
+    },
+    "68": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "4〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        },
+        {
+          "name": "ゆうきのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bean-fighter/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bean-fighter/"
+    },
+    "69": {
+      "doors": [
+        {
+          "name": "とまどいのとびら",
+          "floors": "3〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-seed/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-seed/"
+    },
+    "70": {
+      "doors": [
+        {
+          "name": "しあわせのとびら",
+          "floors": "1〜17",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-boring-bug/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-boring-bug/"
+    },
+    "71": {
+      "doors": [
+        {
+          "name": "牧場のとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-masked-moth/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-masked-moth/"
+    },
+    "72": {
+      "doors": [
+        {
+          "name": "さばきのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-cordyceps/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-cordyceps/"
+    },
+    "73": {
+      "doors": [
+        {
+          "name": "井戸のとびら",
+          "floors": "6〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "いかりのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        },
+        {
+          "name": "ゆうきのとびら",
+          "floors": "4〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wiggly/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wiggly/"
+    },
+    "74": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ベホマラー",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lipsy/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-lipsy/"
+    },
+    "75": {
+      "doors": [
+        {
+          "name": "やぼうのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        },
+        {
+          "name": "さそいのとびら",
+          "floors": "9〜19",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "１〜18",
+        "skills": "しんくうぎり",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-scissor-beatle/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-scissor-beatle/"
+    },
+    "76": {
+      "doors": [
+        {
+          "name": "まもりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-army-ant/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-army-ant/"
+    },
+    "77": {
+      "doors": [
+        {
+          "name": "まちびとのとびら",
+          "floors": "1〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-stick/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-stick/"
+    },
+    "78": {
+      "doors": [
+        {
+          "name": "まよいのとびら",
+          "floors": "1〜10 16〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "マホターン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-tail-eater/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-tail-eater/"
+    },
+    "79": {
+      "doors": [
+        {
+          "name": "ちえのとびら",
+          "floors": "6〜14",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-centipod/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-centipod/"
+    },
+    "80": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-armorpion/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-armorpion/"
+    },
+    "81": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "ハッスルダンス",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dungeonshrimp/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-dungeonshrimp/"
+    },
+    "82": {
+      "doors": [
+        {
+          "name": "しあわせのとびら",
+          "floors": "1〜16",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-picksy/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-picksy/"
+    },
+    "83": {
+      "doors": [
+        {
+          "name": "図書館のとびら",
+          "floors": "1〜24F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "11〜20F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "かえんぎり",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bullwong/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bullwong/"
+    },
+    "84": {
+      "doors": [
+        {
+          "name": "ねだやしのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        },
+        {
+          "name": "まよいのとびら",
+          "floors": "11〜22",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "すてみ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-silver-batboon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-silver-batboon/"
+    },
+    "85": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "6〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "とまどいのとびら",
+          "floors": "3〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        },
+        {
+          "name": "ゆうきのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-imp/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-imp/"
+    },
+    "86": {
+      "doors": [
+        {
+          "name": "ねだやしのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        },
+        {
+          "name": "さそいのとびら",
+          "floors": "17〜19",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "バイキルト",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-eyelasher/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-eyelasher/"
+    },
+    "87": {
+      "doors": [
+        {
+          "name": "よろこびのとびら",
+          "floors": "6〜13",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-clindeoil/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-clindeoil/"
+    },
+    "88": {
+      "doors": [
+        {
+          "name": "ねだやしのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        },
+        {
+          "name": "ちからのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skull-rider/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-skull-rider/"
+    },
+    "89": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "1〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "デイン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-beast/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-beast/"
+    },
+    "90": {
+      "doors": [
+        {
+          "name": "ねだやしのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "もろばぎり",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ogre/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-ogre/"
+    },
+    "91": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "139〜",
+        "skills": "かがやくいき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-grimkeeper/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-grimkeeper/"
+    },
+    "92": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "139〜",
+        "skills": "メガンテ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-piero/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-piero/"
+    },
+    "93": {
+      "doors": [
+        {
+          "name": "ねだやしのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "ベホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-thwarthog/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-thwarthog/"
+    },
+    "94": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-blackmar/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-blackmar/"
+    },
+    "95": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-axe-knight/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-axe-knight/"
+    },
+    "97": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "メガンテ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-zushio/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-zushio/"
+    },
+    "98": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "ラリホーマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-devil-armor/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-devil-armor/"
+    },
+    "99": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-jamirus/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-jamirus/"
+    },
+    "C3": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "井戸のとびら",
+          "floors": "6〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "ちからのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mud-doll/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mud-doll/"
+    },
+    "C2": {
+      "doors": [
+        {
+          "name": "※",
+          "floors": "※",
+          "sourceUrl": "https://jippe-game.com/terryretro/monster-mimic/"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mimic/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mimic/"
+    },
+    "BF": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "メダルのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+        },
+        {
+          "name": "まよいのとびら",
+          "floors": "1〜22",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ラリホーマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-gas-cloud/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-gas-cloud/"
+    },
+    "BC": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "図書館のとびら",
+          "floors": "1〜15",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ヒャダルコ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-cursed-lamp/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-cursed-lamp/"
+    },
+    "BB": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "井戸のとびら",
+          "floors": "9〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "ゆうきのとびら",
+          "floors": "4〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-erazor-blade/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-erazor-blade/"
+    },
+    "B7": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "おもいでのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+        },
+        {
+          "name": "まもりのとびら",
+          "floors": "3〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-muddy-hand/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-muddy-hand/"
+    },
+    "B5": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "イオラ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-demon-mirror/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-demon-mirror/"
+    },
+    "B4": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "しあわせのとびら",
+          "floors": "17",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+        },
+        {
+          "name": "さそいのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-burr-baby/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-burr-baby/"
+    },
+    "B3": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "牧場のとびら",
+          "floors": "6〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+        },
+        {
+          "name": "ちえのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-teaky-mask/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-teaky-mask/"
+    },
+    "B2": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-nejimakidori/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-nejimakidori/"
+    },
+    "B1": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "格闘場左のとびら",
+          "floors": "1〜12",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wax-murderer/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wax-murderer/"
+    },
+    "B0": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "かがみのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "メラミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-wand/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-evil-wand/"
+    },
+    "AF": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "かがみのとびら",
+          "floors": "26〜28",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "ベホマラー",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-jewels/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-dancing-jewels/"
+    },
+    "A8": {
+      "doors": [
+        {
+          "name": "メダルのとびら",
+          "floors": "9〜18",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "マホトーン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-sekerleton/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-sekerleton/"
+    },
+    "A6": {
+      "doors": [
+        {
+          "name": "図書館のとびら",
+          "floors": "1〜10 16〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "メダパニ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-soulspawn/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-soulspawn/"
+    },
+    "A5": {
+      "doors": [
+        {
+          "name": "メダルのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-will-o-the-whips/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-will-o-the-whips/"
+    },
+    "A3": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "6〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "6〜7",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        },
+        {
+          "name": "とまどいのとびら",
+          "floors": "3〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-corpse/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-walking-corpse/"
+    },
+    "A2": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "1〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ラリホー",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-shadow/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-shadow/"
+    },
+    "A1": {
+      "doors": [
+        {
+          "name": "しあわせのとびら",
+          "floors": "5〜17",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shiawase"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ピオリム",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton-soldier/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton-soldier/"
+    },
+    "A0": {
+      "doors": [
+        {
+          "name": "ねむりのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "マホトーン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dark-club/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-dark-club/"
+    },
+    "9F": {
+      "doors": [
+        {
+          "name": "よろこびのとびら",
+          "floors": "9〜13",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mummy/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mummy/"
+    },
+    "9E": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "21〜28",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "ザキ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-yatagarasu/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-yatagarasu/"
+    },
+    "9D": {
+      "doors": [
+        {
+          "name": "いかりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-putrepup/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-putrepup/"
+    },
+    "9B": {
+      "doors": [
+        {
+          "name": "まもりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ghost/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-ghost/"
+    },
+    "7E": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "16〜28",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "のろいのことば",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-hornet/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hell-hornet/"
+    },
+    "7D": {
+      "doors": [
+        {
+          "name": "図書館のとびら",
+          "floors": "1〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tosyokan"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "のろいのことば",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-army-crab/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-army-crab/"
+    },
+    "7C": {
+      "doors": [
+        {
+          "name": "さばきのとびら",
+          "floors": "6〜15",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-droll/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-droll/"
+    },
+    "7B": {
+      "doors": [
+        {
+          "name": "さばきのとびら",
+          "floors": "16〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-death-farena/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-death-farena/"
+    },
+    "7A": {
+      "doors": [
+        {
+          "name": "いかりのとびら",
+          "floors": "4〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-druin/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-druin/"
+    },
+    "6F": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "4〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "おもいでのとびら",
+          "floors": "1〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-caterpillar/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-caterpillar/"
+    },
+    "6E": {
+      "doors": [
+        {
+          "name": "井戸のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "いかりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+        },
+        {
+          "name": "やぼうのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yabou"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-big-slug/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-big-slug/"
+    },
+    "6B": {
+      "doors": [
+        {
+          "name": "はかいのとびら",
+          "floors": "21〜28",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "ザキ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-carnivine/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-carnivine/"
+    },
+    "6A": {
+      "doors": [
+        {
+          "name": "はかいのとびら",
+          "floors": "21〜28",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "ライデイン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-maneater/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-maneater/"
+    },
+    "5F": {
+      "doors": [
+        {
+          "name": "よろこびのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bad-apple/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bad-apple/"
+    },
+    "5D": {
+      "doors": [
+        {
+          "name": "はかいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        },
+        {
+          "name": "ちからのとびら",
+          "floors": "4〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-floattree/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-floattree/"
+    },
+    "5C": {
+      "doors": [
+        {
+          "name": "井戸のとびら",
+          "floors": "1〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "はかいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        },
+        {
+          "name": "ゆうきのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-flower-mage/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-flower-mage/"
+    },
+    "5A": {
+      "doors": [
+        {
+          "name": "はかいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#hakai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mental-pitcher/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mental-pitcher/"
+    },
+    "4F": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        },
+        {
+          "name": "とまどいのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bantamweight/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bantamweight/"
+    },
+    "4E": {
+      "doors": [
+        {
+          "name": "あやつりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        },
+        {
+          "name": "たびだちのとびら",
+          "floors": "1〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tabidachi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-drakee/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-drakee/"
+    },
+    "4D": {
+      "doors": [
+        {
+          "name": "あやつりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        },
+        {
+          "name": "さそいのとびら",
+          "floors": "13〜19",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "ラリホー",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mistwing/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mistwing/"
+    },
+    "4A": {
+      "doors": [
+        {
+          "name": "あやつりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        },
+        {
+          "name": "まよいのとびら",
+          "floors": "6〜22",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "けものぎり",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-quack-up/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-quack-up/"
+    },
+    "3F": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "もろばぎり",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-goategon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-goategon/"
+    },
+    "3D": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "格闘場右のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "おもいでのとびら",
+          "floors": "3〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-fairyrat/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-fairyrat/"
+    },
+    "3C": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "格闘場左のとびら",
+          "floors": "1〜15",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mad-mole/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mad-mole/"
+    },
+    "3B": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "21〜26",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "バギクロス",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-powie-yowie/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-powie-yowie/"
+    },
+    "4C": {
+      "doors": [
+        {
+          "name": "牧場のとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+        },
+        {
+          "name": "あやつりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ayatsuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-avenger-raven/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-avenger-raven/"
+    },
+    "A7": {
+      "doors": [
+        {
+          "name": "ねむりのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        },
+        {
+          "name": "まよいのとびら",
+          "floors": "21〜22",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wind-mage/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wind-mage/"
+    },
+    "2F": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "いかりのとびら",
+          "floors": "1〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-vampire-cat/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-vampire-cat/"
+    },
+    "2E": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "井戸のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "4〜7",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-spiked-hare/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-spiked-hare/"
+    },
+    "2D": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        },
+        {
+          "name": "ちえのとびら",
+          "floors": "1〜14",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chie"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-poxtongue/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-poxtongue/"
+    },
+    "1D": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "とまどいのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+        },
+        {
+          "name": "まもりのとびら",
+          "floors": "1〜2",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mamori"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-komodo/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-komodo/"
+    },
+    "1A": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        },
+        {
+          "name": "いかりのとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-whacker-gila/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-whacker-gila/"
+    },
+    "0B": {
+      "doors": [
+        {
+          "name": "しはいのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        },
+        {
+          "name": "まよいのとびら",
+          "floors": "1〜22",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#mayoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-rock-slime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-rock-slime/"
+    },
+    "07": {
+      "doors": [
+        {
+          "name": "メダルのとびら",
+          "floors": "1〜18",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-box-slime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-box-slime/"
+    },
+    "06": {
+      "doors": [
+        {
+          "name": "よろこびのとびら",
+          "floors": "9〜13",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-babble/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-babble/"
+    },
+    "04": {
+      "doors": [
+        {
+          "name": "よろこびのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yorokobi"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-snail/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-snail/"
+    },
+    "03": {
+      "doors": [
+        {
+          "name": "井戸のとびら",
+          "floors": "4〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        },
+        {
+          "name": "ちからのとびら",
+          "floors": "1〜3 6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-tree/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-tree/"
+    },
+    "0A": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "スクルト",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wild-slime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wild-slime/"
+    },
+    "09": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-healer/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-healer/"
+    },
+    "01": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        },
+        {
+          "name": "とまどいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tomadoi"
+        },
+        {
+          "name": "おもいでのとびら",
+          "floors": "3〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#omoide"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-spotted-slime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-spotted-slime/"
+    },
+    "02": {
+      "doors": [
+        {
+          "name": "格闘場左のとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wing-slime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wing-slime/"
+    },
+    "1F": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "いなずま",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wyvern/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wyvern/"
+    },
+    "1E": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "いきをすいこむ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-drag-goof/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-drag-goof/"
+    },
+    "08": {
+      "doors": [
+        {
+          "name": "しはいのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        },
+        {
+          "name": "たびだちのとびら",
+          "floors": "1〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#tabidachi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-slime/"
+    },
+    "C6": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "しんくうぎり",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bomb-crag/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bomb-crag/"
+    },
+    "0D": {
+      "doors": [
+        {
+          "name": "格闘場左のとびら",
+          "floors": "6〜15",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slabbit/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-slabbit/"
+    },
+    "0E": {
+      "doors": [
+        {
+          "name": "さばきのとびら",
+          "floors": "1〜24",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sabaki"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "れんぞくこうげき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-spotking/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-spotking/"
+    },
+    "8A": {
+      "doors": [
+        {
+          "name": "バザーのとびら",
+          "floors": "6〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaa"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        },
+        {
+          "name": "ゆうきのとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yuuki"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-jinkster/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-jinkster/"
+    },
+    "8B": {
+      "doors": [
+        {
+          "name": "ねだやしのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        },
+        {
+          "name": "まちびとのとびら",
+          "floors": "3〜4",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#machibito"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-gremlin/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-gremlin/"
+    },
+    "8F": {
+      "doors": [
+        {
+          "name": "メダルのとびら",
+          "floors": "1〜18",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-orc/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-orc/"
+    },
+    "8E": {
+      "doors": [
+        {
+          "name": "ねだやしのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "ルカナン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-ankhorn/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-ankhorn/"
+    },
+    "9C": {
+      "doors": [
+        {
+          "name": "ねむりのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "メラゾーマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-putregon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-putregon/"
+    },
+    "1B": {
+      "doors": [
+        {
+          "name": "がんこじいさんのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ganko"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "ライデイン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-sworddragon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-sworddragon/"
+    },
+    "B6": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        },
+        {
+          "name": "メダルのとびら",
+          "floors": "6〜18",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#medaru"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "マホキテ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-restless-armour/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-restless-armour/"
+    },
+    "0C": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "1〜15",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "だいせつだん",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slimeborg/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-slimeborg/"
+    },
+    "A4": {
+      "doors": [
+        {
+          "name": "牧場のとびら",
+          "floors": "4〜5 9〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-mudlon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-mudlon/"
+    },
+    "AC": {
+      "doors": [
+        {
+          "name": "ねむりのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "つばめがえし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-skeleton/"
+    },
+    "8D": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "16〜28",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "ベギラマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hyperanemon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hyperanemon/"
+    },
+    "AB": {
+      "doors": [
+        {
+          "name": "井戸のとびら",
+          "floors": "1〜3",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ido"
+        },
+        {
+          "name": "やすらぎのとびら",
+          "floors": "4〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#yasuragi"
+        },
+        {
+          "name": "ねむりのとびら",
+          "floors": "1〜5",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-bone-prisoner/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-bone-prisoner/"
+    },
+    "1C": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-green-dragon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-green-dragon/"
+    },
+    "8C": {
+      "doors": [
+        {
+          "name": "格闘場左のとびら",
+          "floors": "1〜8",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouleft"
+        },
+        {
+          "name": "ねだやしのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nedayashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-medusa-ball/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-medusa-ball/"
+    },
+    "A9": {
+      "doors": [
+        {
+          "name": "ねむりのとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#nemuri"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "ベホマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-deadnoble/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-deadnoble/"
+    },
+    "05": {
+      "doors": [
+        {
+          "name": "しはいのとびら",
+          "floors": "11〜20",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        },
+        {
+          "name": "さそいのとびら",
+          "floors": "1〜19",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#sasoi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "1〜18",
+        "skills": "スカラ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-knight/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-slime-knight/"
+    },
+    "C0": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "39〜58",
+        "skills": "メラミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-lava-basher/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-lava-basher/"
+    },
+    "00": {
+      "doors": [
+        {
+          "name": "牧場のとびら",
+          "floors": "6〜11",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bokujo"
+        },
+        {
+          "name": "しはいのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#shihai"
+        },
+        {
+          "name": "いかりのとびら",
+          "floors": "9〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#ikari"
+        },
+        {
+          "name": "ちからのとびら",
+          "floors": "6〜10",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#chikara"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-drakslime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-drakslime/"
+    },
+    "0F": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "マヒャド",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-king-slime/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-king-slime/"
+    },
+    "BA": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "21〜29F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "ラリホーマ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-balzack/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-balzack/"
+    },
+    "C4": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "メダパニダンス",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-golem/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-golem/"
+    },
+    "BE": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-urnexpected/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-urnexpected/"
+    },
+    "AD": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "139〜",
+        "skills": "しゃくねつ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-demonatarms/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-demonatarms/"
+    },
+    "AE": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "59〜78",
+        "skills": "マジックバリア",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-manemane/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-manemane/"
+    },
+    "C5": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "79〜98",
+        "skills": "ベギラゴン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-livingstatue/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-livingstatue/"
+    },
+    "6D": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-watabou/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-watabou/"
+    },
+    "3E": {
+      "doors": [
+        {
+          "name": "格闘場右のとびら",
+          "floors": "21〜26F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "しっぷうづき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-unicorn/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-unicorn/"
+    },
+    "2B": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "メガンテ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skydragon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-skydragon/"
+    },
+    "AA": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-wightking/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-wightking/"
+    },
+    "6C": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-rosevine/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-rosevine/"
+    },
+    "2C": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-xenlon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-xenlon/"
+    },
+    "2A": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "99〜118",
+        "skills": "かがやくいき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hacksaurus/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hacksaurus/"
+    },
+    "D6": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-nokturnus/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-nokturnus/"
+    },
+    "CF": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-estark/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-estark/"
+    },
+    "D2": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-murdaw/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-murdaw/"
+    },
+    "CE": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-deathpsaro/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-deathpsaro/"
+    },
+    "CD": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-zoma/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-zoma/"
+    },
+    "CC": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-baramos/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-baramos/"
+    },
+    "CB": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-malroth/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-malroth/"
+    },
+    "CA": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hargon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hargon/"
+    },
+    "3A": {
+      "doors": [
+        {
+          "name": "かがみのとびら",
+          "floors": "6〜28F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kagami"
+        },
+        {
+          "name": "格闘場右のとびら",
+          "floors": "11〜20F",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#kakutouright"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "ホイミ",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-grizzly/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-grizzly/"
+    },
+    "C1": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "19〜38",
+        "skills": "みなごろし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-glacierblasher/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-glacierblasher/"
+    },
+    "B9": {
+      "doors": [
+        {
+          "name": "バザー端のとびら",
+          "floors": "21〜29",
+          "sourceUrl": "https://jippe-game.com/terryretro/door/#bazaahashi"
+        }
+      ],
+      "foreignMaster": {
+        "levelBand": "119〜138",
+        "skills": "イオナズン",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-metaldragon/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-metaldragon/"
+    },
+    "7F": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "139〜",
+        "skills": "どくこうげき",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-hornbeetle/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-hornbeetle/"
+    },
+    "9A": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-dhuran/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-dhuran/"
+    },
+    "C7": {
+      "doors": [],
+      "foreignMaster": {
+        "levelBand": "なし",
+        "skills": "なし",
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-goldengolem/"
+      },
+      "sourceUrl": "https://jippe-game.com/terryretro/monster-goldengolem/"
+    }
+  },
+  "unresolved": [
+    {
+      "id": "27",
+      "name": "ウイングスネーク"
+    },
+    {
+      "id": "41",
+      "name": "バオーム"
+    },
+    {
+      "id": "4B",
+      "name": "デッドベッカー"
+    },
+    {
+      "id": "5B",
+      "name": "かりゅそう"
+    },
+    {
+      "id": "5E",
+      "name": "サバテンボール"
+    },
+    {
+      "id": "96",
+      "name": "ギガンデス"
+    },
+    {
+      "id": "B8",
+      "name": "ミステリードール"
+    },
+    {
+      "id": "BD",
+      "name": "キラーマシーン"
+    },
+    {
+      "id": "C8",
+      "name": "りゅうおう1"
+    },
+    {
+      "id": "C9",
+      "name": "りゅうおう2"
+    },
+    {
+      "id": "D0",
+      "name": "ミルドラース1"
+    },
+    {
+      "id": "D1",
+      "name": "ミルドラース2"
+    },
+    {
+      "id": "D3",
+      "name": "デスタムーア1"
+    },
+    {
+      "id": "D4",
+      "name": "デスタムーア2"
+    },
+    {
+      "id": "D5",
+      "name": "デスタムーア3"
+    }
+  ]
+}

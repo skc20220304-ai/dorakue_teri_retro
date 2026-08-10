@@ -103,11 +103,20 @@ function App() {
   </div>
 }
 
+function AcquisitionSection({ monster }) {
+  const acquisition = monster.acquisition ?? { doors: [], foreignMaster: null }
+  const rules = data.quality.acquisition?.otherCountryMaster
+  return <section className="detail-section acquisition-section"><h2>入手方法</h2>{acquisition.doors?.length ? <div><h3>旅の扉</h3>{acquisition.doors.map((door) => <p key={`${door.name}-${door.floors}`}><strong>{door.name}</strong>：{door.floors} <a href={door.sourceUrl} target="_blank" rel="noreferrer">出典</a></p>)}</div> : <p className="muted">掲載された旅の扉出現情報はありません。</p>}{acquisition.foreignMaster && acquisition.foreignMaster.levelBand !== 'なし' ? <div><h3>他国マスター</h3><p><strong>パーティー合計レベル</strong>：{acquisition.foreignMaster.levelBand}</p><p><strong>習得特技</strong>：{acquisition.foreignMaster.skills || 'なし'}</p><a href={acquisition.foreignMaster.sourceUrl} target="_blank" rel="noreferrer">モンスター別の出典</a></div> : null}<p className="muted">他国マスターは、条件達成後に次のフロアへ進むとランダム出現します。{rules?.sourceUrl ? <> <a href={rules.sourceUrl} target="_blank" rel="noreferrer">出現条件一覧</a></> : null}</p></section>
+}
+
 function MonsterDetail({ monster, incoming, outgoing, favorites, onToggle, expanded, setExpanded, onSelect }) {
   if (!monster) return <section className="detail-panel"><EmptyState message="モンスターを選択してください" /></section>
   const cannotBreed = data.quality.nonBreedableMonsterIds.includes(monster.id)
   return <section className="detail-panel" aria-labelledby="detail-heading"><div className="detail-header"><div className={`family-icon large family-${monster.familyId}`}>{familyIcon(monster.familyId)}</div><div><h1 id="detail-heading" tabIndex="-1">{monster.name}</h1><p>{familyName(monster.familyId)} <span className="data-no">No. {monster.id}</span></p></div><button className={favorites.monsters.has(monster.id) ? 'favorite-button active' : 'favorite-button'} onClick={() => onToggle('monsters', monster.id)} aria-pressed={favorites.monsters.has(monster.id)}><Star size={20} fill={favorites.monsters.has(monster.id) ? 'currentColor' : 'none'} />{favorites.monsters.has(monster.id) ? 'お気に入り登録済み' : 'モンスターをお気に入り'}</button></div><div className="detail-stats"><span>基本MAX Lv <b>{monster.maxLevel}</b></span><span>{monster.flying ? '飛行タイプ' : '地上タイプ'}</span><span>{monster.metal ? 'メタルタイプ' : '通常タイプ'}</span></div><p className="direction-warning"><strong>順序に注意：</strong>左が血統、右が相手です。左右を入れ替えると結果が変わる場合があります。</p><section className="detail-section"><button className="section-title-button" onClick={() => setExpanded(!expanded)} aria-expanded={expanded}><h2>このモンスターを作る配合</h2>{expanded ? <ChevronUp /> : <ChevronDown />}</button>{expanded && (incoming.length ? incoming.map((recipe) => <RecipeRow key={recipe.recipeKey} recipe={recipe} favorites={favorites} onToggle={onToggle} onSelect={onSelect} highlight />) : <p className="muted">{cannotBreed ? '通常配合では新しく生み出せません。野生・イベント・ボス報酬などで入手します。' : '2資料で一致を確認できた通常配合はありません。'}</p>)}</section><section className="detail-section"><h2>このモンスターを親に使う配合</h2>{outgoing.length ? outgoing.slice(0, 20).map((recipe) => <RecipeRow key={recipe.recipeKey} recipe={recipe} favorites={favorites} onToggle={onToggle} onSelect={onSelect} />) : <p className="muted">該当する配合はありません。</p>}</section></section>
 }
+
+const BaseMonsterDetail = MonsterDetail
+MonsterDetail = (props) => <><BaseMonsterDetail {...props} /><AcquisitionSection monster={props.monster} /></>
 
 function RecipeRow({ recipe, favorites, onToggle, onSelect, highlight }) {
   const result = recipeResult(recipe)
