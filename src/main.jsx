@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+﻿import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BookOpen, ChevronDown, ChevronUp, Database, ExternalLink, Filter, Heart, RotateCcw, Search, Sparkles, Star, X } from 'lucide-react'
 import data from './data/data.json'
@@ -42,20 +42,22 @@ function App() {
   const [notice, setNotice] = useState('')
   const [favorites, setFavorites] = useState(readFavorites)
   const [user, setUser] = useState(null)
+  const [syncReady, setSyncReady] = useState(!firebaseConfigured)
   const [syncState, setSyncState] = useState(firebaseConfigured ? '未接続' : '端末保存')
   const searchRef = useRef(null)
 
   useEffect(() => {
     localStorage.setItem('dqm1-favorites-v1', JSON.stringify({ version: 1, recipes: [...favorites.recipes], monsters: [...favorites.monsters], updatedAt: new Date().toISOString() }))
-    if (user && db) {
+    if (user && db && syncReady) {
       setDoc(doc(db, 'users', user.uid), { recipes: [...favorites.recipes], monsters: [...favorites.monsters], updatedAt: new Date().toISOString() }, { merge: true }).then(() => setSyncState('同期済み')).catch(() => setSyncState('同期失敗'))
     }
-  }, [favorites, user])
+  }, [favorites, user, syncReady])
   useEffect(() => {
     if (!auth) return undefined
     return onAuthStateChanged(auth, async (nextUser) => {
+      setSyncReady(false)
       setUser(nextUser)
-      if (!nextUser || !db) { setSyncState(nextUser ? '未接続' : '未ログイン'); return }
+      if (!nextUser || !db) { setSyncState(nextUser ? '未接続' : '未ログイン'); setSyncReady(true); return }
       setSyncState('読み込み中')
       try {
         const snapshot = await getDoc(doc(db, 'users', nextUser.uid))
@@ -63,6 +65,7 @@ function App() {
           const remote = snapshot.data()
           setFavorites((current) => ({ recipes: new Set([...(current.recipes ?? []), ...(Array.isArray(remote.recipes) ? remote.recipes : [])]), monsters: new Set([...(current.monsters ?? []), ...(Array.isArray(remote.monsters) ? remote.monsters : [])]) }))
         }
+        setSyncReady(true)
         setSyncState('同期済み')
       } catch { setSyncState('同期失敗') }
     })
