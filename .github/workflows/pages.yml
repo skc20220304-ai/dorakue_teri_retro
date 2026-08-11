@@ -22,6 +22,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Configure Firebase web app
+        run: |
+          cat > .env.production <<'EOF'
+          VITE_FIREBASE_API_KEY=AIzaSyDKBEKzVQy8HczTNTTeSS-Q0xz60jv6-6A
+          VITE_FIREBASE_AUTH_DOMAIN=dqm1-teri-retro.firebaseapp.com
+          VITE_FIREBASE_PROJECT_ID=dqm1-teri-retro
+          VITE_FIREBASE_STORAGE_BUCKET=dqm1-teri-retro.firebasestorage.app
+          VITE_FIREBASE_MESSAGING_SENDER_ID=611287502599
+          VITE_FIREBASE_APP_ID=1:611287502599:web:3785fce52b4ca484f77fa2
+          EOF
       - run: npm install
       - run: npm run build
       - uses: actions/configure-pages@v5
