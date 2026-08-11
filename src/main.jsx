@@ -9,7 +9,11 @@ const FAMILY_ICONS = { '00': '◒', '01': '♢', '02': '♞', '03': '◈', '04':
 const sourceUrl = 'https://github.com/ossan-pg/dqm1-gb-data'
 
 const normalize = (value) => value.normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60)).trim()
-const familyName = (id) => FAMILY_NAMES[id] ?? '特殊データ'
+const familyName = (id) => {
+  const raw = String(id ?? '').replace(/^F/i, '')
+  const key = raw.length === 1 ? raw.padStart(2, '0') : raw.toUpperCase()
+  return FAMILY_NAMES[key] ?? '不明な系統'
+}
 const familyIcon = (id) => FAMILY_ICONS[id] ?? '?'
 const monsterById = new Map(data.monsters.map((m) => [m.id, m]))
 const playableMonsters = data.monsters.filter((m) => m.status !== 'special')
