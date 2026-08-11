@@ -120,7 +120,7 @@ function MonsterDetail({ monster, incoming, outgoing, favorites, onToggle, expan
 }
 
 const BaseMonsterDetail = MonsterDetail
-MonsterDetail = (props) => <><BaseMonsterDetail {...props} /><AcquisitionSection monster={props.monster} /></>
+MonsterDetail = (props) => <div className="detail-stack"><AcquisitionSection monster={props.monster} /><BaseMonsterDetail {...props} /></div>
 
 function RecipeRow({ recipe, favorites, onToggle, onSelect, highlight }) {
   const result = recipeResult(recipe)
