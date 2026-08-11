@@ -102,7 +102,20 @@ function App() {
   }
   const login = async () => {
     if (!auth || !googleProvider) return setNotice('Firebase設定が未入力です')
-    try { await signInWithPopup(auth, googleProvider) } catch { setNotice('ログインに失敗しました'); window.setTimeout(() => setNotice(''), 2200) }
+    try {
+      await signInWithPopup(auth, googleProvider)
+    } catch (error) {
+      const code = error?.code || ''
+      const message = code.includes('popup-blocked')
+        ? 'ログイン画面がブロックされました。ブラウザのポップアップを許可してください。'
+        : code.includes('unauthorized-domain')
+          ? 'この公開ドメインがFirebaseで未承認です。管理者設定を確認してください。'
+          : code.includes('cancelled-popup')
+            ? 'ログイン画面が閉じられました。もう一度お試しください。'
+            : 'ログインに失敗しました。時間を置いて再度お試しください。'
+      setNotice(message)
+      window.setTimeout(() => setNotice(''), 4200)
+    }
   }
   const selectMonster = (id) => { setSelectedId(id); setPage('search'); window.setTimeout(() => document.getElementById('detail-heading')?.focus(), 0) }
   const reset = () => { setQuery(''); setFamilyFilter(''); setMode('result'); setPlus(''); setNotice('検索条件をリセットしました'); searchRef.current?.focus() }
