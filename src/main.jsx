@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BookOpen, ChevronDown, ChevronUp, Database, ExternalLink, Filter, Heart, RotateCcw, Search, Sparkles, Star, X } from 'lucide-react'
 import data from './data/data.json'
 import './styles.css'
+import { auth, db, doc, firebaseConfigured, getDoc, googleProvider, onAuthStateChanged, setDoc, signInWithPopup, signOut } from './firebase'
 
 const FAMILY_NAMES = { '00': 'スライム系', '01': 'ドラゴン系', '02': 'けもの系', '03': '鳥系', '04': '植物系', '05': '虫系', '06': '悪魔系', '07': 'ゾンビ系', '08': '物質系', '09': '？？？系' }
 const FAMILY_ICONS = { '00': '◒', '01': '♢', '02': '♞', '03': '◈', '04': '✦', '05': '✣', '06': '♆', '07': '☠', '08': '⬡', '09': '?' }
@@ -40,11 +41,32 @@ function App() {
   const [expandedResults, setExpandedResults] = useState(true)
   const [notice, setNotice] = useState('')
   const [favorites, setFavorites] = useState(readFavorites)
+  const [user, setUser] = useState(null)
+  const [syncState, setSyncState] = useState(firebaseConfigured ? '未接続' : '端末保存')
   const searchRef = useRef(null)
 
   useEffect(() => {
     localStorage.setItem('dqm1-favorites-v1', JSON.stringify({ version: 1, recipes: [...favorites.recipes], monsters: [...favorites.monsters], updatedAt: new Date().toISOString() }))
-  }, [favorites])
+    if (user && db) {
+      setDoc(doc(db, 'users', user.uid), { recipes: [...favorites.recipes], monsters: [...favorites.monsters], updatedAt: new Date().toISOString() }, { merge: true }).then(() => setSyncState('同期済み')).catch(() => setSyncState('同期失敗'))
+    }
+  }, [favorites, user])
+  useEffect(() => {
+    if (!auth) return undefined
+    return onAuthStateChanged(auth, async (nextUser) => {
+      setUser(nextUser)
+      if (!nextUser || !db) { setSyncState(nextUser ? '未接続' : '未ログイン'); return }
+      setSyncState('読み込み中')
+      try {
+        const snapshot = await getDoc(doc(db, 'users', nextUser.uid))
+        if (snapshot.exists()) {
+          const remote = snapshot.data()
+          setFavorites((current) => ({ recipes: new Set([...(current.recipes ?? []), ...(Array.isArray(remote.recipes) ? remote.recipes : [])]), monsters: new Set([...(current.monsters ?? []), ...(Array.isArray(remote.monsters) ? remote.monsters : [])]) }))
+        }
+        setSyncState('同期済み')
+      } catch { setSyncState('同期失敗') }
+    })
+  }, [])
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
     query ? params.set('q', query) : params.delete('q')
@@ -78,6 +100,10 @@ function App() {
       window.setTimeout(() => setNotice(''), 2200); return next
     })
   }
+  const login = async () => {
+    if (!auth || !googleProvider) return setNotice('Firebase設定が未入力です')
+    try { await signInWithPopup(auth, googleProvider) } catch { setNotice('ログインに失敗しました'); window.setTimeout(() => setNotice(''), 2200) }
+  }
   const selectMonster = (id) => { setSelectedId(id); setPage('search'); window.setTimeout(() => document.getElementById('detail-heading')?.focus(), 0) }
   const reset = () => { setQuery(''); setFamilyFilter(''); setMode('result'); setPlus(''); setNotice('検索条件をリセットしました'); searchRef.current?.focus() }
   const favoriteRecipes = data.recipes.filter((r) => favorites.recipes.has(r.recipeKey))
@@ -87,10 +113,10 @@ function App() {
     <header className="topbar">
       <button className="brand" onClick={() => { setPage('search'); setQuery(''); }} aria-label="配合手帳 ホーム"><BookOpen size={34} /><span>配合手帳</span></button>
       <nav className="main-nav" aria-label="メインナビゲーション"><button className={page === 'search' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('search')}><Search size={20} />モンスター検索</button><button className={page === 'favorites' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('favorites')}><Star size={20} />お気に入り</button></nav>
-      <a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer"><Database size={19} />データ出典 <span className="source-name">ossan-pg/dqm1-gb-data</span><ExternalLink size={15} /></a>
+      <div className="account-box">{user ? <><span className="sync-state">{syncState}</span><button className="account-button" onClick={() => signOut(auth)}>{user.displayName || user.email}からログアウト</button></> : firebaseConfigured ? <button className="account-button" onClick={login}>Googleでログインして同期</button> : <span className="sync-state">端末保存</span>}</div><a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer"><Database size={19} />データ出典 <span className="source-name">ossan-pg/dqm1-gb-data</span><ExternalLink size={15} /></a>
     </header>
 
-    {page === 'favorites' ? <FavoritesPage tab={favoriteTab} setTab={setFavoriteTab} recipes={favoriteRecipes} monsters={favoriteMonsters} onRecipe={(recipe) => { setSelectedId(recipe.resultId); setPage('search') }} onMonster={selectMonster} onToggle={toggleFavorite} notice={notice} /> : <>
+    {page === 'favorites' ? <FavoritesPage tab={favoriteTab} setTab={setFavoriteTab} recipes={favoriteRecipes} monsters={favoriteMonsters} onRecipe={(recipe) => { setSelectedId(recipe.resultId); setPage('search') }} onMonster={selectMonster} onToggle={toggleFavorite} notice={notice} syncState={syncState} /> : <>
       <main className="workspace">
         <section className="search-hero"><label htmlFor="monster-search" className="sr-only">モンスター名で検索</label><div className="search-input-wrap"><Search size={28} /><input id="monster-search" ref={searchRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="モンスター名で検索" autoComplete="off" /></div><span className="search-example">検索例：キングスライム</span></section>
         <div className="mode-tabs" role="tablist" aria-label="配合検索モード"><button role="tab" aria-selected={mode === 'result'} className={mode === 'result' ? 'mode-tab selected' : 'mode-tab'} onClick={() => setMode('result')}>結果から探す</button><button role="tab" aria-selected={mode === 'parents'} className={mode === 'parents' ? 'mode-tab selected' : 'mode-tab'} onClick={() => setMode('parents')}>親から探す</button></div>
@@ -140,7 +166,7 @@ function ParentSearch({ parentOne, parentTwo, plus, setParentOne, setParentTwo, 
   return <section className="parent-search"><div className="parent-intro"><h1>親2体から配合を探す</h1><p><strong>順序は固定です。</strong>左を血統、右を相手として検索します。左右を入れ替えると別の結果になる場合があります。</p></div><div className="parent-controls"><label>① 血統（先に選ぶ親）<select value={parentOne} onChange={(e) => setParentOne(e.target.value)}>{options.map((m) => <option value={m.id} key={m.id}>{m.name}</option>)}</select></label><span className="operator">×</span><label>② 相手（後に選ぶ親）<select value={parentTwo} onChange={(e) => setParentTwo(e.target.value)}>{options.map((m) => <option value={m.id} key={m.id}>{m.name}</option>)}</select></label><label>配合後＋値（任意）<input type="number" min="0" value={plus} onChange={(e) => setPlus(e.target.value)} placeholder="指定なし" /></label></div><div className="parent-results"><div className="panel-head"><h2>配合候補</h2><span>{results.length} 件</span></div>{results.length ? results.map((recipe) => <RecipeRow key={recipe.recipeKey} recipe={recipe} favorites={favorites} onToggle={onToggle} onSelect={onSelect} highlight />) : <EmptyState message="この順序・条件で2資料の一致を確認できた配合はありません" action="血統と相手の順序、＋値を確認してください" />}</div></section>
 }
 
-function FavoritesPage({ tab, setTab, recipes, monsters, onRecipe, onMonster, onToggle, notice }) { return <main className="favorites-page"><div className="favorites-title"><Heart size={34} /><div><h1>お気に入り</h1><p>この端末に保存されています</p></div></div><div className="favorite-tabs" role="tablist"><button role="tab" aria-selected={tab === 'recipes'} className={tab === 'recipes' ? 'selected' : ''} onClick={() => setTab('recipes')}><Sparkles size={18} />配合 <b>{recipes.length}</b></button><button role="tab" aria-selected={tab === 'monsters'} className={tab === 'monsters' ? 'selected' : ''} onClick={() => setTab('monsters')}><Star size={18} />モンスター <b>{monsters.length}</b></button></div>{tab === 'recipes' ? <div className="favorite-list">{recipes.length ? recipes.map((recipe) => <div className="favorite-item" key={recipe.recipeKey}><RecipeRow recipe={recipe} favorites={{ recipes: new Set([recipe.recipeKey]), monsters: new Set() }} onToggle={onToggle} onSelect={onRecipe} /><button className="outline-button" onClick={() => onRecipe(recipe)}>配合詳細を見る</button></div>) : <EmptyState message="お気に入りの配合はまだありません" action="モンスター検索から星を押して保存" />}</div> : <div className="favorite-monsters">{monsters.length ? monsters.map((monster) => <button className="favorite-monster" key={monster.id} onClick={() => onMonster(monster.id)}><span className={`family-icon family-${monster.familyId}`}>{familyIcon(monster.familyId)}</span><strong>{monster.name}</strong><span>{familyName(monster.familyId)}</span><span className="spacer" /><Star fill="currentColor" size={18} onClick={(e) => { e.stopPropagation(); onToggle('monsters', monster.id) }} /></button>) : <EmptyState message="お気に入りのモンスターはまだありません" action="モンスター検索から星を押して保存" />}</div>}<p className="storage-note">お気に入りはこの端末のブラウザに保存されます。ブラウザデータの削除や端末変更で消える場合があります。</p></main> }
+function FavoritesPage({ tab, setTab, recipes, monsters, onRecipe, onMonster, onToggle, syncState }) { return <main className="favorites-page"><div className="favorites-title"><Heart size={34} /><div><h1>お気に入り</h1><p>{syncState === '同期済み' ? 'Firebaseに同期されています' : 'この端末に保存されています'}</p></div></div><div className="favorite-tabs" role="tablist"><button role="tab" aria-selected={tab === 'recipes'} className={tab === 'recipes' ? 'selected' : ''} onClick={() => setTab('recipes')}><Sparkles size={18} />配合 <b>{recipes.length}</b></button><button role="tab" aria-selected={tab === 'monsters'} className={tab === 'monsters' ? 'selected' : ''} onClick={() => setTab('monsters')}><Star size={18} />モンスター <b>{monsters.length}</b></button></div>{tab === 'recipes' ? <div className="favorite-list">{recipes.length ? recipes.map((recipe) => <div className="favorite-item" key={recipe.recipeKey}><RecipeRow recipe={recipe} favorites={{ recipes: new Set([recipe.recipeKey]), monsters: new Set() }} onToggle={onToggle} onSelect={onRecipe} /><button className="outline-button" onClick={() => onRecipe(recipe)}>配合詳細を見る</button></div>) : <EmptyState message="お気に入りの配合はまだありません" action="モンスター検索から星を押して保存" />}</div> : <div className="favorite-monsters">{monsters.length ? monsters.map((monster) => <button className="favorite-monster" key={monster.id} onClick={() => onMonster(monster.id)}><span className={`family-icon family-${monster.familyId}`}>{familyIcon(monster.familyId)}</span><strong>{monster.name}</strong><span>{familyName(monster.familyId)}</span><span className="spacer" /><Star fill="currentColor" size={18} onClick={(e) => { e.stopPropagation(); onToggle('monsters', monster.id) }} /></button>) : <EmptyState message="お気に入りのモンスターはまだありません" action="モンスター検索から星を押して保存" />}</div>}<p className="storage-note">{syncState === '同期済み' ? 'ログイン中のアカウントに保存されています。別端末でも同じアカウントでログインしてください。' : 'お気に入りはこの端末のブラウザに保存されます。Firebase設定後、Googleログインで別端末と同期できます。'}</p></main> }
 function EmptyState({ message, action, onClick }) { return <div className="empty-state"><p>{message}</p>{action && <button onClick={onClick}>{action}</button>}</div> }
 
 createRoot(document.getElementById('root')).render(<App />)
