@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BookOpen, ChevronDown, ChevronUp, Database, ExternalLink, Filter, Heart, RotateCcw, Search, Sparkles, Star, X } from 'lucide-react'
 import data from './data/data.json'
 import './styles.css'
-import { auth, db, doc, firebaseConfigured, getDoc, googleProvider, onAuthStateChanged, setDoc, signInWithPopup, signOut } from './firebase'
+import { auth, db, doc, firebaseConfigured, getDoc, googleProvider, onAuthStateChanged, setDoc, signInWithRedirect, signOut } from './firebase'
 
 const FAMILY_NAMES = { '00': 'スライム系', '01': 'ドラゴン系', '02': 'けもの系', '03': '鳥系', '04': '植物系', '05': '虫系', '06': '悪魔系', '07': 'ゾンビ系', '08': '物質系', '09': '？？？系' }
 const FAMILY_ICONS = { '00': '◒', '01': '♢', '02': '♞', '03': '◈', '04': '✦', '05': '✣', '06': '♆', '07': '☠', '08': '⬡', '09': '?' }
@@ -112,16 +112,12 @@ function App() {
   const login = async () => {
     if (!auth || !googleProvider) return setNotice('Firebase設定が未入力です')
     try {
-      await signInWithPopup(auth, googleProvider)
+      await signInWithRedirect(auth, googleProvider)
     } catch (error) {
       const code = error?.code || ''
-      const message = code.includes('popup-blocked')
-        ? 'ログイン画面がブロックされました。ブラウザのポップアップを許可してください。'
-        : code.includes('unauthorized-domain')
+      const message = code.includes('unauthorized-domain')
           ? 'この公開ドメインがFirebaseで未承認です。管理者設定を確認してください。'
-          : code.includes('cancelled-popup')
-            ? 'ログイン画面が閉じられました。もう一度お試しください。'
-            : 'ログインに失敗しました。時間を置いて再度お試しください。'
+          : 'ログインに失敗しました。時間を置いて再度お試しください。'
       setNotice(message)
       window.setTimeout(() => setNotice(''), 4200)
     }
