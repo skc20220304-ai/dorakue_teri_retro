@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BookOpen, ChevronDown, ChevronUp, Database, ExternalLink, Filter, Heart, RotateCcw, Search, Sparkles, Star, X } from 'lucide-react'
 import data from './data/data.json'
 import './styles.css'
-import { auth, db, doc, firebaseConfigured, getDoc, googleProvider, onAuthStateChanged, setDoc, signInWithRedirect, signOut } from './firebase'
+import { auth, db, doc, firebaseConfigured, getDoc, getRedirectResult, googleProvider, onAuthStateChanged, setDoc, signInWithRedirect, signOut } from './firebase'
 
 const FAMILY_NAMES = { '00': 'スライム系', '01': 'ドラゴン系', '02': 'けもの系', '03': '鳥系', '04': '植物系', '05': '虫系', '06': '悪魔系', '07': 'ゾンビ系', '08': '物質系', '09': '？？？系' }
 const FAMILY_ICONS = { '00': '◒', '01': '♢', '02': '♞', '03': '◈', '04': '✦', '05': '✣', '06': '♆', '07': '☠', '08': '⬡', '09': '?' }
@@ -42,7 +42,7 @@ function App() {
   const [expandedResults, setExpandedResults] = useState(true)
   const [notice, setNotice] = useState('')
   const [favorites, setFavorites] = useState(readFavorites)
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState(() => auth?.currentUser ?? null)
   const [syncReady, setSyncReady] = useState(!firebaseConfigured)
   const [syncState, setSyncState] = useState(firebaseConfigured ? '未接続' : '端末保存')
   const searchRef = useRef(null)
@@ -55,6 +55,7 @@ function App() {
   }, [favorites, user, syncReady])
   useEffect(() => {
     if (!auth) return undefined
+    getRedirectResult(auth).catch(() => {})
     return onAuthStateChanged(auth, async (nextUser) => {
       setSyncReady(false)
       setUser(nextUser)

@@ -1,5 +1,5 @@
 import { getApp, getApps, initializeApp } from 'firebase/app'
-import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithRedirect, signOut } from 'firebase/auth'
+import { getAuth, GoogleAuthProvider, getRedirectResult, onAuthStateChanged, signInWithRedirect, signOut } from 'firebase/auth'
 import { doc, getDoc, getFirestore, setDoc } from 'firebase/firestore'
 
 const config = {
@@ -16,4 +16,4 @@ const app = firebaseConfigured ? (getApps().length ? getApp() : initializeApp(co
 export const auth = app ? getAuth(app) : null
 export const db = app ? getFirestore(app) : null
 export const googleProvider = app ? new GoogleAuthProvider() : null
-export { onAuthStateChanged, signInWithRedirect, signOut, doc, getDoc, setDoc }
+export { getRedirectResult, onAuthStateChanged, signInWithRedirect, signOut, doc, getDoc, setDoc }
