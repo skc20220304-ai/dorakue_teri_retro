@@ -127,7 +127,17 @@ function App() {
       window.setTimeout(() => setNotice(''), 4200)
     }
   }
-  const selectMonster = (id) => { setSelectedId(id); setPage('search'); window.setTimeout(() => document.getElementById('detail-heading')?.focus(), 0) }
+  const selectMonster = (id, options = {}) => {
+    setSelectedId(id)
+    setPage('search')
+    setExpandedResults(true)
+    window.setTimeout(() => {
+      const target = document.getElementById(options.toBreeding ? 'breeding-section' : 'detail-heading')
+      target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      if (options.toBreeding) target?.querySelector('h2')?.focus()
+      else target?.focus()
+    }, 80)
+  }
   const submitSearch = (event) => {
     event?.preventDefault()
     setQuery(searchInput)
@@ -145,7 +155,7 @@ function App() {
       <div className="account-box">{user ? <><span className="sync-state">{syncState}</span><button className="account-button" onClick={() => signOut(auth)}>{user.displayName || user.email}からログアウト</button></> : !authReady ? <span className="sync-state">ログイン状態を確認中…</span> : firebaseConfigured ? <button className="account-button" onClick={login}>Googleでログインして同期</button> : <span className="sync-state">端末保存</span>}</div><a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer"><Database size={19} />データ出典 <span className="source-name">ossan-pg/dqm1-gb-data</span><ExternalLink size={15} /></a>
     </header>
 
-    {page === 'favorites' ? <FavoritesPage tab={favoriteTab} setTab={setFavoriteTab} recipes={favoriteRecipes} monsters={favoriteMonsters} onRecipe={(recipe) => { setSelectedId(recipe.resultId); setPage('search') }} onMonster={selectMonster} onToggle={toggleFavorite} notice={notice} syncState={syncState} /> : <>
+    {page === 'favorites' ? <FavoritesPage tab={favoriteTab} setTab={setFavoriteTab} recipes={favoriteRecipes} monsters={favoriteMonsters} onRecipe={(recipe) => { setSelectedId(recipe.resultId); setPage('search') }} onMonster={(id) => selectMonster(id, { toBreeding: true })} onToggle={toggleFavorite} notice={notice} syncState={syncState} /> : <>
       <main className="workspace">
         <form className="search-hero" onSubmit={submitSearch} role="search"><label htmlFor="monster-search" className="sr-only">モンスター名で検索</label><div className="search-input-wrap"><Search size={28} aria-hidden="true" /><input id="monster-search" ref={searchRef} type="search" value={searchInput} onChange={(e) => { setSearchInput(e.target.value); setQuery(e.target.value) }} placeholder="モンスター名で検索" autoComplete="off" enterKeyHint="search" /><button type="button" className="search-clear" onClick={reset} aria-label="検索文字をクリア" disabled={!searchInput}><X size={20} /></button><button type="submit" className="search-submit">検索</button></div><span className="search-example">検索例：キングスライム</span></form>
         <div className="mode-tabs" role="tablist" aria-label="配合検索モード"><button role="tab" aria-selected={mode === 'result'} className={mode === 'result' ? 'mode-tab selected' : 'mode-tab'} onClick={() => setMode('result')}>結果から探す</button><button role="tab" aria-selected={mode === 'parents'} className={mode === 'parents' ? 'mode-tab selected' : 'mode-tab'} onClick={() => setMode('parents')}>親から探す</button></div>
@@ -171,7 +181,7 @@ function AcquisitionSection({ monster }) {
 function MonsterDetail({ monster, incoming, outgoing, favorites, onToggle, expanded, setExpanded, onSelect }) {
   if (!monster) return <section className="detail-panel"><EmptyState message="モンスターを選択してください" /></section>
   const cannotBreed = data.quality.nonBreedableMonsterIds.includes(monster.id)
-  return <section className="detail-panel" aria-labelledby="detail-heading"><div className="detail-header"><div className={`family-icon large family-${monster.familyId}`}>{familyIcon(monster.familyId)}</div><div><h1 id="detail-heading" tabIndex="-1">{monster.name}</h1><p>{familyName(monster.familyId)} <span className="data-no">No. {monster.id}</span></p></div><button className={favorites.monsters.has(monster.id) ? 'favorite-button active' : 'favorite-button'} onClick={() => onToggle('monsters', monster.id)} aria-pressed={favorites.monsters.has(monster.id)}><Star size={20} fill={favorites.monsters.has(monster.id) ? 'currentColor' : 'none'} />{favorites.monsters.has(monster.id) ? 'お気に入り登録済み' : 'モンスターをお気に入り'}</button></div><div className="detail-stats"><span>基本MAX Lv <b>{monster.maxLevel}</b></span><span>{monster.flying ? '飛行タイプ' : '地上タイプ'}</span><span>{monster.metal ? 'メタルタイプ' : '通常タイプ'}</span></div><p className="direction-warning"><strong>順序に注意：</strong>左が血統、右が相手です。左右を入れ替えると結果が変わる場合があります。</p><section className="detail-section"><button className="section-title-button" onClick={() => setExpanded(!expanded)} aria-expanded={expanded}><h2>このモンスターを作る配合</h2>{expanded ? <ChevronUp /> : <ChevronDown />}</button>{expanded && (incoming.length ? incoming.map((recipe) => <RecipeRow key={recipe.recipeKey} recipe={recipe} favorites={favorites} onToggle={onToggle} onSelect={onSelect} highlight />) : <p className="muted">{cannotBreed ? '通常配合では新しく生み出せません。野生・イベント・ボス報酬などで入手します。' : '2資料で一致を確認できた通常配合はありません。'}</p>)}</section><section className="detail-section"><h2>このモンスターを親に使う配合</h2>{outgoing.length ? outgoing.slice(0, 20).map((recipe) => <RecipeRow key={recipe.recipeKey} recipe={recipe} favorites={favorites} onToggle={onToggle} onSelect={onSelect} />) : <p className="muted">該当する配合はありません。</p>}</section></section>
+  return <section className="detail-panel" aria-labelledby="detail-heading"><div className="detail-header"><div className={`family-icon large family-${monster.familyId}`}>{familyIcon(monster.familyId)}</div><div><h1 id="detail-heading" tabIndex="-1">{monster.name}</h1><p>{familyName(monster.familyId)} <span className="data-no">No. {monster.id}</span></p></div><button className={favorites.monsters.has(monster.id) ? 'favorite-button active' : 'favorite-button'} onClick={() => onToggle('monsters', monster.id)} aria-pressed={favorites.monsters.has(monster.id)}><Star size={20} fill={favorites.monsters.has(monster.id) ? 'currentColor' : 'none'} />{favorites.monsters.has(monster.id) ? 'お気に入り登録済み' : 'モンスターをお気に入り'}</button></div><div className="detail-stats"><span>基本MAX Lv <b>{monster.maxLevel}</b></span><span>{monster.flying ? '飛行タイプ' : '地上タイプ'}</span><span>{monster.metal ? 'メタルタイプ' : '通常タイプ'}</span></div><p className="direction-warning"><strong>順序に注意：</strong>左が血統、右が相手です。左右を入れ替えると結果が変わる場合があります。</p><section id="breeding-section" className="detail-section" tabIndex="-1"><button className="section-title-button" onClick={() => setExpanded(!expanded)} aria-expanded={expanded}><h2 tabIndex="-1">このモンスターを作る配合</h2>{expanded ? <ChevronUp /> : <ChevronDown />}</button>{expanded && (incoming.length ? incoming.map((recipe) => <RecipeRow key={recipe.recipeKey} recipe={recipe} favorites={favorites} onToggle={onToggle} onSelect={onSelect} highlight />) : <p className="muted">{cannotBreed ? '通常配合では新しく生み出せません。野生・イベント・ボス報酬などで入手します。' : '2資料で一致を確認できた通常配合はありません。'}</p>)}</section><section className="detail-section"><h2>このモンスターを親に使う配合</h2>{outgoing.length ? outgoing.slice(0, 20).map((recipe) => <RecipeRow key={recipe.recipeKey} recipe={recipe} favorites={favorites} onToggle={onToggle} onSelect={onSelect} />) : <p className="muted">該当する配合はありません。</p>}</section></section>
 }
 
 const BaseMonsterDetail = MonsterDetail
