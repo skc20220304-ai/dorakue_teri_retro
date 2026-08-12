@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BookOpen, ChevronDown, ChevronUp, Database, ExternalLink, Filter, Heart, RotateCcw, Search, Sparkles, Star, X } from 'lucide-react'
 import data from './data/data.json'
 import './styles.css'
-import { auth, db, doc, firebaseConfigured, getDoc, getRedirectResult, googleProvider, onAuthStateChanged, setDoc, signInWithRedirect, signOut } from './firebase'
+import { auth, db, doc, firebaseConfigured, getDoc, getRedirectResult, googleProvider, onAuthStateChanged, setDoc, signInWithPopup, signOut } from './firebase'
 
 const FAMILY_NAMES = { '00': 'スライム系', '01': 'ドラゴン系', '02': 'けもの系', '03': '鳥系', '04': '植物系', '05': '虫系', '06': '悪魔系', '07': 'ゾンビ系', '08': '物質系', '09': '？？？系' }
 const FAMILY_ICONS = { '00': '◒', '01': '♢', '02': '♞', '03': '◈', '04': '✦', '05': '✣', '06': '♆', '07': '☠', '08': '⬡', '09': '?' }
@@ -44,6 +44,7 @@ function App() {
   const [favorites, setFavorites] = useState(readFavorites)
   const [user, setUser] = useState(() => auth?.currentUser ?? null)
   const [syncReady, setSyncReady] = useState(!firebaseConfigured)
+  const [authReady, setAuthReady] = useState(!firebaseConfigured)
   const [syncState, setSyncState] = useState(firebaseConfigured ? '未接続' : '端末保存')
   const searchRef = useRef(null)
 
@@ -59,6 +60,7 @@ function App() {
       if (result?.user) setUser(result.user)
     }).catch(() => {})
     return onAuthStateChanged(auth, async (nextUser) => {
+      setAuthReady(true)
       setSyncReady(false)
       setUser(nextUser)
       if (!nextUser || !db) { setSyncState(nextUser ? '未接続' : '未ログイン'); setSyncReady(true); return }
@@ -115,7 +117,7 @@ function App() {
   const login = async () => {
     if (!auth || !googleProvider) return setNotice('Firebase設定が未入力です')
     try {
-      await signInWithRedirect(auth, googleProvider)
+      await signInWithPopup(auth, googleProvider)
     } catch (error) {
       const code = error?.code || ''
       const message = code.includes('unauthorized-domain')
@@ -140,7 +142,7 @@ function App() {
     <header className="topbar">
       <button className="brand" onClick={() => { setPage('search'); setQuery(''); }} aria-label="配合手帳 ホーム"><BookOpen size={34} /><span>配合手帳</span></button>
       <nav className="main-nav" aria-label="メインナビゲーション"><button className={page === 'search' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('search')}><Search size={20} />モンスター検索</button><button className={page === 'favorites' ? 'nav-link active' : 'nav-link'} onClick={() => setPage('favorites')}><Star size={20} />お気に入り</button></nav>
-      <div className="account-box">{user ? <><span className="sync-state">{syncState}</span><button className="account-button" onClick={() => signOut(auth)}>{user.displayName || user.email}からログアウト</button></> : firebaseConfigured ? <button className="account-button" onClick={login}>Googleでログインして同期</button> : <span className="sync-state">端末保存</span>}</div><a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer"><Database size={19} />データ出典 <span className="source-name">ossan-pg/dqm1-gb-data</span><ExternalLink size={15} /></a>
+      <div className="account-box">{user ? <><span className="sync-state">{syncState}</span><button className="account-button" onClick={() => signOut(auth)}>{user.displayName || user.email}からログアウト</button></> : !authReady ? <span className="sync-state">ログイン状態を確認中…</span> : firebaseConfigured ? <button className="account-button" onClick={login}>Googleでログインして同期</button> : <span className="sync-state">端末保存</span>}</div><a className="source-link" href={sourceUrl} target="_blank" rel="noreferrer"><Database size={19} />データ出典 <span className="source-name">ossan-pg/dqm1-gb-data</span><ExternalLink size={15} /></a>
     </header>
 
     {page === 'favorites' ? <FavoritesPage tab={favoriteTab} setTab={setFavoriteTab} recipes={favoriteRecipes} monsters={favoriteMonsters} onRecipe={(recipe) => { setSelectedId(recipe.resultId); setPage('search') }} onMonster={selectMonster} onToggle={toggleFavorite} notice={notice} syncState={syncState} /> : <>
