@@ -309,7 +309,15 @@
           "skills": "なし",
           "sourceUrl": "https://jippe-game.com/terryretro/monster-slime/"
         },
-        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime/"
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-slime/",
+        "event": {
+          "type": "event",
+          "timing": "格闘場Sクラスクリア後",
+          "location": "モンスター牧場・プリオのそば",
+          "method": "そばにいるスライムに話しかける（スラお）",
+          "oneTime": true,
+          "note": "スラお加入後はスラチが代役になるが、スラチは仲間にならない"
+        }
       }
     },
     {
@@ -1269,7 +1277,15 @@
           "skills": "メガンテ",
           "sourceUrl": "https://jippe-game.com/terryretro/monster-skydragon/"
         },
-        "sourceUrl": "https://jippe-game.com/terryretro/monster-skydragon/"
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-skydragon/",
+        "event": {
+          "type": "event",
+          "timing": "格闘場Cクラスをクリアする前",
+          "location": "モンスター牧場",
+          "method": "牧場の空を飛ぶスカイドラゴンの下でタマゴを入手し、ほしふりのほこらで孵化",
+          "oneTime": true,
+          "note": "Cクラスクリア後は入手不可"
+        }
       }
     },
     {
@@ -3102,7 +3118,15 @@
           "skills": "なし",
           "sourceUrl": "https://jippe-game.com/terryretro/monster-watabou/"
         },
-        "sourceUrl": "https://jippe-game.com/terryretro/monster-watabou/"
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-watabou/",
+        "event": {
+          "type": "event",
+          "timing": "すべての旅の扉のボスを撃破後",
+          "location": "モンスター牧場のモンスター牧舎",
+          "method": "牧舎のわたぼうに話しかけ、条件達成後にもう一度話しかける",
+          "oneTime": true,
+          "note": "ダークドレアムの配合に使うと、このイベントで再入手できない"
+        }
       }
     },
     {
@@ -5590,7 +5614,15 @@
           "skills": "ベギラゴン",
           "sourceUrl": "https://jippe-game.com/terryretro/monster-livingstatue/"
         },
-        "sourceUrl": "https://jippe-game.com/terryretro/monster-livingstatue/"
+        "sourceUrl": "https://jippe-game.com/terryretro/monster-livingstatue/",
+        "event": {
+          "type": "event",
+          "timing": "格闘場Aクラスクリア後",
+          "location": "格闘場の酒場",
+          "method": "酒場にいるマチコに話しかける",
+          "oneTime": true,
+          "note": "タマゴではなく、うごくせきぞうを直接受け取る"
+        }
       }
     },
     {
@@ -34699,5 +34731,5 @@
       "https://jony-webcreat.com/teriwanretoro/monster/all-monster-making/"
     ]
   },
-  "generatedAt": "2026-08-10T13:24:43.859Z"
+  "generatedAt": "2026-08-12T03:39:50.616Z"
 }

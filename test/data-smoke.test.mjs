@@ -37,3 +37,14 @@ test('acquisition data includes doors and foreign-master bands', () => {
   assert.match(metal.acquisition.foreignMaster.levelBand, /〜/)
   assert.ok(data.quality.acquisition.otherCountryMaster.conditions.length >= 5)
 })
+
+test('event-only acquisition records include Watabou and the other event recruits', () => {
+  const eventNames = ['スカイドラゴン', 'うごくせきぞう', 'スライム', 'わたぼう']
+  for (const name of eventNames) {
+    const monster = data.monsters.find((entry) => entry.name === name)
+    assert.ok(monster?.acquisition?.event, `${name} should have an event acquisition record`)
+  }
+  const watabou = data.monsters.find((entry) => entry.name === 'わたぼう')
+  assert.match(watabou.acquisition.event.timing, /旅の扉/)
+  assert.match(watabou.acquisition.event.location, /牧舎/)
+})
