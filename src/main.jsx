@@ -55,7 +55,9 @@ function App() {
   }, [favorites, user, syncReady])
   useEffect(() => {
     if (!auth) return undefined
-    getRedirectResult(auth).catch(() => {})
+    getRedirectResult(auth).then((result) => {
+      if (result?.user) setUser(result.user)
+    }).catch(() => {})
     return onAuthStateChanged(auth, async (nextUser) => {
       setSyncReady(false)
       setUser(nextUser)
