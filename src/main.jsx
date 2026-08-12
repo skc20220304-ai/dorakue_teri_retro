@@ -30,6 +30,7 @@ function readFavorites() {
 
 function App() {
   const [query, setQuery] = useState(() => new URLSearchParams(window.location.search).get('q') || '')
+  const [searchInput, setSearchInput] = useState(() => new URLSearchParams(window.location.search).get('q') || '')
   const [familyFilter, setFamilyFilter] = useState(() => new URLSearchParams(window.location.search).get('family') || '')
   const [mode, setMode] = useState('result')
   const [selectedId, setSelectedId] = useState('0F')
@@ -121,7 +122,13 @@ function App() {
     }
   }
   const selectMonster = (id) => { setSelectedId(id); setPage('search'); window.setTimeout(() => document.getElementById('detail-heading')?.focus(), 0) }
-  const reset = () => { setQuery(''); setFamilyFilter(''); setMode('result'); setPlus(''); setNotice('検索条件をリセットしました'); searchRef.current?.focus() }
+  const submitSearch = (event) => {
+    event?.preventDefault()
+    setQuery(searchInput)
+    setNotice(searchInput.trim() ? `「${searchInput.trim()}」で検索しました` : '検索条件をリセットしました')
+    window.setTimeout(() => setNotice(''), 2200)
+  }
+  const reset = () => { setSearchInput(''); setQuery(''); setFamilyFilter(''); setMode('result'); setPlus(''); setNotice('検索条件をリセットしました'); searchRef.current?.focus() }
   const favoriteRecipes = data.recipes.filter((r) => favorites.recipes.has(r.recipeKey))
   const favoriteMonsters = playableMonsters.filter((m) => favorites.monsters.has(m.id))
 
@@ -134,7 +141,7 @@ function App() {
 
     {page === 'favorites' ? <FavoritesPage tab={favoriteTab} setTab={setFavoriteTab} recipes={favoriteRecipes} monsters={favoriteMonsters} onRecipe={(recipe) => { setSelectedId(recipe.resultId); setPage('search') }} onMonster={selectMonster} onToggle={toggleFavorite} notice={notice} syncState={syncState} /> : <>
       <main className="workspace">
-        <section className="search-hero"><label htmlFor="monster-search" className="sr-only">モンスター名で検索</label><div className="search-input-wrap"><Search size={28} /><input id="monster-search" ref={searchRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="モンスター名で検索" autoComplete="off" /></div><span className="search-example">検索例：キングスライム</span></section>
+        <form className="search-hero" onSubmit={submitSearch} role="search"><label htmlFor="monster-search" className="sr-only">モンスター名で検索</label><div className="search-input-wrap"><Search size={28} aria-hidden="true" /><input id="monster-search" ref={searchRef} type="search" value={searchInput} onChange={(e) => { setSearchInput(e.target.value); setQuery(e.target.value) }} placeholder="モンスター名で検索" autoComplete="off" enterKeyHint="search" /><button type="button" className="search-clear" onClick={reset} aria-label="検索文字をクリア" disabled={!searchInput}><X size={20} /></button><button type="submit" className="search-submit">検索</button></div><span className="search-example">検索例：キングスライム</span></form>
         <div className="mode-tabs" role="tablist" aria-label="配合検索モード"><button role="tab" aria-selected={mode === 'result'} className={mode === 'result' ? 'mode-tab selected' : 'mode-tab'} onClick={() => setMode('result')}>結果から探す</button><button role="tab" aria-selected={mode === 'parents'} className={mode === 'parents' ? 'mode-tab selected' : 'mode-tab'} onClick={() => setMode('parents')}>親から探す</button></div>
         {mode === 'parents' ? <ParentSearch parentOne={parentOne} parentTwo={parentTwo} plus={plus} setParentOne={setParentOne} setParentTwo={setParentTwo} setPlus={setPlus} results={parentResults} onSelect={selectMonster} onToggle={toggleFavorite} favorites={favorites} /> : <div className="three-pane">
           <aside className="filter-panel"><div className="panel-head"><h2><Filter size={18} />フィルター</h2><button className="text-button" onClick={reset}><RotateCcw size={15} />リセット</button></div><fieldset><legend>系統で絞り込む</legend>{Object.entries(FAMILY_NAMES).map(([id, name]) => <label className="check-row" key={id}><input type="radio" name="family" checked={familyFilter === id} onChange={() => setFamilyFilter(id)} /><span className={`family-icon family-${id}`}>{familyIcon(id)}</span><span>{name}</span><small>{data.monsters.filter((m) => m.familyId === id).length}</small></label>)}</fieldset><button className="filter-clear" onClick={() => setFamilyFilter('')}><X size={15} />系統フィルターを解除</button><div className="result-count" aria-live="polite">結果件数：{filteredMonsters.length} 件</div></aside>
